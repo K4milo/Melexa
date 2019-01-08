@@ -22,6 +22,8 @@
 
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
+<link rel="icon" type="image/png" href="<?php bloginfo('template_url')?>/favicon-melexa.png" />
+
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <!--[if lt IE 9]>
