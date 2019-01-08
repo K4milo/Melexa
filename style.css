@@ -8672,6 +8672,48 @@ margin: 0 !important;
 width: auto !important;
 }
 
+/*
+	Links: for fixes
+
+	http://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial/
+
+	https://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial/elementos-de-proteccion-personal/
+
+	http://melexa.com/categoria-producto/categorias-melexa/
+
+	http://melexa.com/categoria-producto/categorias-melexa/
+
+	https://melexa.com/categoria-producto/categorias-melexa/automatizacion-industrial/
+
+	https://melexa.com/categoria-producto/categorias-melexa/conductores-electricos/
+
+	https://melexa.com/categoria-producto/categorias-melexa/control-y-seguridad-de-edificaciones/
+
+	https://melexa.com/categoria-producto/categorias-melexa/distribucion-de-energia/
+
+	https://melexa.com/categoria-producto/categorias-melexa/transformacion-de-energia/
+
+	https://melexa.com/categoria-producto/categorias-melexa/motores-y-control-de-motores/
+
+	https://melexa.com/categoria-producto/categorias-melexa/tuberia-y-canalizacion/
+
+	https://melexa.com/categoria-producto/categorias-melexa/acondicionamiento-ambiental-y-energia/
+
+	https://melexa.com/categoria-producto/categorias-melexa/Comunicaciones/
+
+	https://melexa.com/categoria-producto/categorias-melexa/conectores-y-productos-de-terminacion/
+
+	https://melexa.com/categoria-producto/categorias-melexa/dispositivos-de-proteccion-baja-y-media-tension/
+
+	http://melexa.com/categoria-producto/categorias-melexa/equipos-de-medicion-calibracion-y-certificacion/
+
+	https://melexa.com/categoria-producto/categorias-melexa/mecanismos/
+
+	https://melexa.com/categoria-producto/categorias-melexa/iluminacion/
+
+	https://melexa.com/categoria-producto/categorias-melexa/servicios/
+*/
+
 @media(max-width:600px){
 
 	/*Header*/
@@ -8743,6 +8785,51 @@ width: auto !important;
 		font-size: 18px;
 		text-align: center;
 		margin: 5px 0 11px;
+	}
+
+	/*Woocommerce fixes*/
+
+	body .woocommerce .category {
+		width: 100%;
+		height: auto;
+		float: none;
+		clear: both;
+	}
+
+	body .woocommerce .category img {
+	    height: auto;
+	    width: 100% !important;
+	}
+
+	/* http://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial */
+
+	body .col-4.cav,
+	body .col-8.cav {
+		width: 100%;
+		height: auto;
+		float: none;
+		clear: both;
+	}
+
+	/*Thumb list*/
+	body .subcategoriaw .imgcategoriaproducto,
+	body .subcategoriaw .titlecategoria {
+		width: 100%;
+		height: auto;
+		float: none;
+		clear: both;
+	}
+
+	/*Category List*/
+	body .subcategoriaw .category {
+		float: none;
+		clear: both;
+		margin: 10px 0;
+	}
+
+	body .wpb_wrapper #part1 .text-part1, .page-dos #part1 .text-part1 {
+		width: 70% !important;
+		left: 0;
 	}
 
 	/* Footer */
