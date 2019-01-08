@@ -8675,26 +8675,6 @@ width: auto !important;
 /*
 	Links: for fixes
 
-	http://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial/
-
-	https://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial/elementos-de-proteccion-personal/
-
-	http://melexa.com/categoria-producto/categorias-melexa/
-
-	http://melexa.com/categoria-producto/categorias-melexa/
-
-	https://melexa.com/categoria-producto/categorias-melexa/automatizacion-industrial/
-
-	https://melexa.com/categoria-producto/categorias-melexa/conductores-electricos/
-
-	https://melexa.com/categoria-producto/categorias-melexa/control-y-seguridad-de-edificaciones/
-
-	https://melexa.com/categoria-producto/categorias-melexa/distribucion-de-energia/
-
-	https://melexa.com/categoria-producto/categorias-melexa/transformacion-de-energia/
-
-	https://melexa.com/categoria-producto/categorias-melexa/motores-y-control-de-motores/
-
 	https://melexa.com/categoria-producto/categorias-melexa/tuberia-y-canalizacion/
 
 	https://melexa.com/categoria-producto/categorias-melexa/acondicionamiento-ambiental-y-energia/
@@ -8749,6 +8729,10 @@ width: auto !important;
 	    float: none !important;
 	    text-align: left;
 	}
+	
+	body .mid-content.clearfix {
+		padding: inherit;
+	}
 
 	body .vc_grid.vc_row.vc_grid-gutter-30px .vc_pageable-slide-wrapper,
 	body .vc_basic_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item, 
@@ -8796,7 +8780,8 @@ width: auto !important;
 		clear: both;
 	}
 
-	body .woocommerce .category img {
+	body.woocommerce .category img,
+	body.woocommerce img {
 	    height: auto;
 	    width: 100% !important;
 	}
@@ -8809,6 +8794,7 @@ width: auto !important;
 		height: auto;
 		float: none;
 		clear: both;
+		margin: inherit;
 	}
 
 	/*Thumb list*/
@@ -8821,6 +8807,11 @@ width: auto !important;
 	}
 
 	/*Category List*/
+	body .category {
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+	}
 	body .subcategoriaw .category {
 		float: none;
 		clear: both;
@@ -8830,6 +8821,13 @@ width: auto !important;
 	body .wpb_wrapper #part1 .text-part1, .page-dos #part1 .text-part1 {
 		width: 70% !important;
 		left: 0;
+	}
+
+	/* https://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial/elementos-de-proteccion-personal/ */
+
+	body #part1 .text-part1 h3 {
+		font-size: 17px;
+		line-height: inherit;
 	}
 
 	/* Footer */
