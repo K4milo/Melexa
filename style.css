@@ -9356,12 +9356,19 @@ body.woocommerce-page.columns-3 ul.products li.product,
 body.woocommerce.columns-3 ul.products li.product{
   display: inline-block;
   vertical-align: top;
-  float: none;
+  float: none !important;
   width: 18.5% !important;
   min-height: 239px;
   text-align: center;
   position: relative;
   margin: 1%;
+}
+
+body.woocommerce ul.products li.first, 
+body.woocommerce-page ul.products li.first,
+body.woocommerce ul.products li.last, 
+body.woocommerce-page ul.products li.last {
+  clear: inherit !important;
 }
 
 body.woocommerce-page.columns-3 ul.products li.product img,
@@ -9405,8 +9412,8 @@ body.woocommerce.columns-3 ul.products li.product h2 {
 
   
   /*product grid*/
-  body .woocommerce-page.columns-3 ul.products li.product, 
-  body .woocommerce.columns-3 ul.products li.product{
+  body.woocommerce-page.columns-3 ul.products li.product, 
+  body.woocommerce.columns-3 ul.products li.product{
     display: block;
     float: none;
     width: 100% !important;
@@ -9414,6 +9421,8 @@ body.woocommerce.columns-3 ul.products li.product h2 {
     text-align: center;
     margin: 10px auto;
   }
+
+ 
 
   body.woocommerce-page.columns-3 ul.products li.product h2,
   body.woocommerce.columns-3 ul.products li.product h2 {
