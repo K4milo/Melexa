@@ -9,6 +9,11 @@ Responsive CSS
 	width: 25%;
 }
 
+.line-item img {
+	max-width: 100%;
+	height: auto;	
+}
+
 @media screen and (max-width: 1200px){
 	.mid-content{
 		width: 100%;
@@ -29,6 +34,23 @@ Responsive CSS
 
 	.social-icons{
 		display: none;
+	}
+}
+
+/*tablets*/
+@media screen and (max-width: 1024px){
+	/*--------------------PAGE HOME--------------------*/
+	.destacados .destacado .cajaimg img{
+		height: auto;
+	}
+
+	.main-navigation > ul > li > a {
+		font-size: 10px;
+	}
+	
+	.line-item {
+		width: 20%;
+		margin:0 2%;
 	}
 }
 
@@ -138,6 +160,9 @@ Responsive CSS
 	}
 	.blog-list .blog-image{
 		text-align: center;
+	}
+	.main-navigation > ul > li > a {
+		font-size: 14px;
 	}
 	.parallax-section input[type="text"], 
 	.parallax-section input[type="email"], 
