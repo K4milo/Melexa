@@ -1,0 +1,2271 @@
+/**
+ * johnny Escudero- j.escudero@kol3.com
+
+ */
+
+ @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600);
+
+    body {
+    color: #404040;
+    border-top: 16px solid #404040;
+    background: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+        font-size: 17px;
+        background: #c0c142;}
+   
+
+    header .mid-content {
+
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.woocommerce-loop-product__title{
+    display:none;
+}
+a {
+    color: #c0c142;
+    text-decoration: none;
+}
+
+ #site-logo{
+    background-color: #fff;
+    padding: 3px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+            height: 100px;
+        padding-left: 10px;
+        box-shadow: 2px 2px 2px rgba(49, 49, 49, 0.48);
+ }
+ #site-logo *, #sonepar *{
+    z-index: 131;
+    position: relative;
+ }
+
+.slider-caption .caption-description a, .btn, .call-to-action a {
+    position: relative;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    line-height: 1;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    border-radius: 0px;
+}
+ #site-logo:after{
+        content: '';
+    background-color: #fff;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    right: -12px;
+    height: 100%;
+    width: 30px;
+    -webkit-transform: skew(-12deg);
+    -moz-transform: skew(-12deg);
+    -ms-transform: skew(-12deg);
+    -o-transform: skew(-12deg);
+    transform: skew(-12deg);
+        box-shadow: 2px 2px 2px rgba(49, 49, 49, 0.48);
+    z-index: 0;
+ }
+ #sonepar{
+    background-color: #fff;
+    
+        height: 100px;
+    position: absolute;
+    z-index: 6;
+    right: 0px;
+    top: 0px;
+        padding-left: 0px;
+        box-shadow: -2px -1px 2px rgba(49, 49, 49, 0.48);
+ }
+ #sonepar img {
+       width: 138px;
+    padding: 6px 0px 3px;
+}
+#sonepar > div{
+        padding: 10px;
+    padding-left: 0px;
+    padding-right: 12px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+  #sonepar:after{
+        content: '';
+    background-color: #fff;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    left: -11px;
+    height: 100%;
+    width: 30px;
+    -webkit-transform: skew(-12deg);
+    -moz-transform: skew(-12deg);
+    -ms-transform: skew(-12deg);
+    -o-transform: skew(-12deg);
+    transform: skew(-12deg);
+        box-shadow: -2px -1px 2px rgba(49, 49, 49, 0.48);
+    z-index: 0;
+ }
+#site-logo img{
+    width: 80px;
+    cursor: pointer;
+    z-index: 100000;
+}
+#masthead{
+    padding: 0px;
+    border:none;
+    box-shadow: 2px 2px 2px rgba(49, 49, 49, 0.48);
+}
+.main-navigation {
+        float: right;
+    width: 100%;
+        border-top: 46px solid #c0c142;
+    max-width: 100%;
+    margin-top: 0px;
+    padding: 8px 0px; 
+    padding-right: 151px;
+}
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    /* display: inline-block; */
+    float: right;
+}
+
+.main-navigation > ul > li > a {
+    text-transform: inherit;
+    font-size: 14px;
+    padding: 5px 9px;
+    letter-spacing: 0pt;
+}
+.main-navigation ul ul a {
+    min-width: 200px;
+    font-size: 13px;
+}
+ 
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a {
+    color: #ffffff;
+    font-weight: 900;
+}
+.main-navigation li:hover > a {
+    color: #8BC34A;
+}
+.current-menu-ancestor > a {
+    color: #8BC34A;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+   background: #5E5F10;
+}
+#main-slider{
+        border-bottom: 10px solid #404040;
+}
+body.parallax-on #masthead {
+        position: absolute;
+}
+.parallax-section.clearfix.default_template{
+        background-size: 100%!important;
+}
+
+
+.searchsection {
+    margin-top: 80px;
+}
+
+#page > #content {
+    position: relative;
+    z-index: 99;
+    padding-top: 65px!important;
+}
+.slider-caption{
+    width: 50%;
+        top: 36%;
+}
+.slider-caption .caption-description a, .btn {
+    background: #c0c142 !important;
+    border: 2px solid #c0c142 !important;
+    color: #FFF !important;
+}
+.slider-caption .caption-description a:hover, .btn:hover {
+    background: none !important;
+    border: 2px solid #fff !important;
+    color: #FFF !important;
+}
+.slider-caption .caption-title, .next-page, .none{
+    display: none;
+}
+.slider-caption .mid-content{
+    width: 100%;
+}
+.slider-caption  .caption-description{
+    text-align: left;
+    line-height: 26px;
+    padding-left: 70px;
+    zoom: 1.3;
+}
+.slider-caption .lin1{}
+.slider-caption .lin2{
+    font-weight: bold;
+}
+.slider-caption a{
+    margin-top: 8px;
+}
+.portfolio_template > .mid-content > h1 {
+        display: none;
+}
+#go-top, .portfolio-list .portfolio-overlay span {
+    background:#c0c142;
+}
+
+.portfolio-list img {
+    width: 100%;}
+.portfolio-list:after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 70px;
+    left: 0px;
+    bottom: 0px;
+    background: #000;
+    z-index: 1;
+    display: none;
+}
+
+.home #content section .mid-content h1{
+    display: none;
+}
+
+#section-48 {
+    background: #fff;
+}
+
+.home #section-48 .mid-content{
+
+}
+.home #section-48 .mid-content h1{
+    display: none;
+}
+.home #section-48 .mid-content .woocs_container{
+        max-width: 100%;
+        width: 100%;
+
+    padding: 0px;
+            overflow: hidden;
+}
+.home #section-48  .mid-content .woocs_container .descripcion{
+           position: absolute;
+    bottom: 0px;
+    background: none;
+        padding: 19px 20px;
+    width: 80%;
+    right: 0px;
+}
+.home #section-48  .mid-content .woocs_container .descripcion:before{
+  content: "";
+  position:absolute;
+      left: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #000;
+    border-left: 100px solid transparent;
+    display: none;
+}
+
+.home #content #section-48  .mid-content .woocs_container .descripcion .woocs_count, .home #section-48 .mid-content .woocs_container .descripcion .woocs_price_range{
+     display: none;
+}
+.woocs1 .woocs_container img {
+    padding: 0px;
+    border: none;
+    background: #FFFFFF;
+    width: 100%;
+    transition: width 1s, height 1s, transform 1s;
+        -moz-transition: width 1s, height 1s, -moz-transform 1s;
+        -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+        -o-transition: width 1s, height 1s,-o-transform 1s;
+}
+.home #content #section-48  .mid-content .woocs_container .descripcion .woocs_title {
+        color: #fff;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.home #content #section-48  .mid-content .woocs_container:hover .woocs_thumb img{
+        transform: scale(1.1);
+        -moz-transform : scale(1.1);      /* Firefox */
+        -webkit-transform : scale(1.1);   /* Chrome - Safari */
+        -o-transform : scale(1.1);        /* Opera */
+        transition: width 1s, height 1s, transform 1s;
+        -moz-transition: width 1s, height 1s, -moz-transform 1s;
+        -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+        -o-transition: width 1s, height 1s,-o-transform 1s;
+}
+
+.wpl-logo-carousel .owl-controls .owl-page span {
+    margin: 5px 3px;
+    color: #fff;
+    background-color: #c0c142;
+}
+
+.buscadorWoo{
+    display: inline-block;
+    width: 100%;
+}
+.buscadorWoo .chosen-container{
+    width: 100%!important;
+}
+.buscadorWoo .woof_container {
+    width: 28%;
+    float: left;
+    margin: 0px 10px;
+}
+.buscadorWoo select {
+    max-width: 100%;
+    width: 100%;
+     border-radius: 0px!important;
+}
+.buscadorWoo input{
+    background: #fff!important;
+    border-radius: 0px!important;
+}
+.buscadorWoo .widgettitle{
+        text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.skin.flat .layer-media {
+    width: 40%;
+    float: left;
+}
+.skin.flat .layer-content {
+    padding: 5px 10px;
+    width: 60%;
+    float: left;
+}
+.wcps-container #wcps-98 .wcps-items-thumb {
+    padding: 20px 0px;
+}
+.wcps-container #wcps-98 .wcps-items {
+    background: #fff;
+}
+
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+    background: #5E5F10;
+    color: #FFF;
+}
+.top-footer .top-footer-wrap {
+    margin-left: 0px;
+}
+.footer1{}
+.footer1 .headF{}
+.footer1 .headF img{
+        vertical-align: text-bottom;
+}
+.footer1 .headF h3 {
+    display: inline;
+    font-size: 17px;
+}
+.footer1 .bodyF {
+        padding: 0px 8px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #151414;
+    margin-left: -8px;
+}
+
+.parallax-section {
+    padding: 34px 0 26px;
+    position: relative;
+}
+#section-71 {
+    background: url() no-repeat scroll top left #ffffff;
+    background-size: auto;
+    padding: 1px 0px 57px;
+}
+
+section.page-dos {
+    overflow: hidden;
+}
+
+.page-dos .hentry {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    position: relative;
+}
+.page-dos section{
+    min-height: 200px;
+    position: relative;
+}
+
+
+#part1{
+     background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/fondo4.png);
+    background-size: cover;
+        min-height: 487px;
+    margin-top: -20px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0px!important;
+}
+#part1 .text-part1 {
+        background: rgba(180, 193, 52, 0.63);
+    width: 65%;
+    position: absolute;
+    padding: 10px;
+    top: 30%;
+    padding-top: 21px;
+    padding-left: 10%;
+    font-size: 1.5em;
+        color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.72);
+}
+#part1 .text-part1 h3 {
+        font-size: 1.6em;
+    z-index: 2;
+    position: relative;
+}
+#part1 .senor{
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/businessman_PNG6582-1.png);
+    background-size: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    right: 24%;
+    width: 229px;
+    height: 360px;
+}
+
+#part1 > p.descripcion {
+    position: absolute;
+    z-index: 30;
+    font-size: 17px;
+    line-height: 22px;
+    top: 53%;
+    width: 70%;
+    padding-left: 10%;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.63);
+}
+.page-dos .divicion1{
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/divicion-1.png);
+    width: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 188px;
+}
+.page-dos .divicionb{
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/divicion-b.png);
+    width: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 188px;
+}
+.page-dos .divicion2{
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/divicion2.png);
+    width: 20%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 188px;
+}
+#part2 {
+    background-color: #E6E6E6;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.39);
+    z-index: 1;
+    padding-top: 170px;
+    margin-bottom: -30px;
+    padding-bottom: 31px;
+}
+
+#part2 .senor2{
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/businessman_PNG6565.png);
+    background-size: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 267px;
+    height: 296px;
+}
+#part2 h3, .part2 h3{
+    font-weight: 700;
+        color: #676112;
+}
+.tltlesinmargin .wpb_content_element{
+    margin: 0px;
+}
+.page-dos .sinpadingTop .vc_column-inner {
+    padding-top: 0px!important;
+}
+
+section#part2.blanco {
+    background-color: #fff;
+}
+section.sintitle {
+        padding: 30px 0px 30px 0px!important;
+}
+section#part3, .part3nosotros{
+    background: #B7BC0C;
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/fondo6-1.png);
+    background-size: 100%;
+    background-position: center 20%;
+        min-height: inherit;
+}
+#part1.sectionNosotros {
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/06/fondoNosotros.png);
+    margin-bottom: 0px!important; */
+}
+
+
+.vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner{
+    padding-bottom: 35px; 
+}
+
+.vc_row-has-fill>.vc_column_container>.vc_column-inner{
+    padding-bottom: 35px;
+}
+.conmargen {
+    width: 1170px!important;
+    margin: 0 auto;
+}
+.sinmargen .su-row,.sinmargen > p{
+    margin-bottom: 0px;
+}
+section#part3 .mid-content{
+        background-color: #fff;
+    padding: 40px;
+    padding-bottom: 20px;
+    padding-top: 130px;
+    z-index: 2;
+    position: relative;
+}
+section#part3 .mid-content.dos{
+        background-color: #fff;
+    padding: 60px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    z-index: 1;
+    position: relative;
+}
+section#part3 .mid-content.tres{
+    width: 100%;
+        background-color: #747B0E;
+    padding: 0px;
+        padding-bottom: 54px;
+        padding-top: 30px;
+    z-index: 1;
+    position: relative;
+}
+section#part3 .mid-content.tres h3{
+    background: #fff;
+    display: block;
+    text-align: center;
+
+    padding: 10px 0px;
+}
+section#part3 .mid-content.tres p{
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+section#part3 .mid-content .su-column  h3{
+        margin-bottom: 0px;
+        text-align: center;
+}
+section#part4 {
+    background: #E6E6E6;
+}
+section .title {
+    position: absolute;
+    top: 10%;
+}
+section#part4 .mid-content.cuatro{
+
+        padding: 60px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.tab3 .su-tabs-nav span{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.tab3{
+    position: relative;
+    top: -43px;
+}
+.tab3 .su-tabs {
+    background: none;
+}
+.tab3 .su-tabs-nav span {
+    background: #353E33;
+    color: #fff;
+    width: 16.3%;
+}
+section#part4 {
+    background: #E6E6E6;
+    box-shadow: 1px -2px 11px #000;
+    position: relative;
+    z-index: 6;
+}
+
+.tab3 .su-tabs-nav span.su-tabs-current {
+    background: #6AB20D;
+    cursor: default;
+    color: #fff;
+}
+
+section#part3 .mid-content .su-column img{
+    max-width: 100%;
+    width: 100%;
+}
+.colortab{
+
+}
+section .title {
+      position: relative;
+    top: 10%;
+    z-index: 888;
+    width: 40%;
+    padding: 13px;
+    padding-left: 10%;
+    background: #fff;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.38);
+    font-weight: 500;
+    font-size: 21px;
+
+}
+
+section .title:before{
+         right: -11px;
+    content: '';
+    background-color: #fff;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 30px;
+    -webkit-transform: skew(12deg);
+    -moz-transform: skew(12deg);
+    -ms-transform: skew(12deg);
+    -o-transform: skew(12deg);
+    transform: skew(12deg);
+    z-index: 1;
+}
+section .title:after{
+      right: -23px;
+    content: '';
+    background-color: #fff;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 30px;
+    -webkit-transform: skew(12deg);
+    -moz-transform: skew(12deg);
+    -ms-transform: skew(12deg);
+    -o-transform: skew(12deg);
+    transform: skew(12deg);
+        box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.38);
+    z-index: 0;
+}
+
+section .title.verde {
+   background: #c0c142;
+       color: #ffffff;
+
+}
+section .title.verde:before , section .title.verde:after {
+   background-color: #c0c142;
+   color: #fff;
+
+}
+
+section .title.azul{
+   background: #022051;
+       color: #fff;
+
+}
+section .title.azul:before , section .title.azul:after {
+   background-color: #022051;
+   color: #fff;
+
+}
+
+section#part5 {
+    background: #B7BC0C;
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/2-2-1.jpg   );
+    background-size: 100%;
+    background-position: center 20%;
+        min-height: inherit;
+}
+.valor{
+    width: 100%;
+}
+.iconV{
+    float: left;
+    width: 20%;
+}
+.textV {
+    float: left;
+    margin-left: 16px;
+    width: 73%;
+}
+.textV h3{}
+.textV p{}
+
+.su-tabs-pane {
+    position: relative;}
+
+section .su-tabs-pane .title {
+    z-index: 888;
+        width: 32%;
+    left: -30px;
+    padding: 13px;
+    text-transform: uppercase;
+    padding-left: 10%;
+    background: #fff;
+    box-shadow: 2px 2px 9px #BFBFBF;
+    font-weight: 500;
+    font-size: 17px;
+
+} 
+section .su-tabs-pane > p {
+    margin-top: 70px;
+    padding: 0px 60px;
+        font-size: 16px;
+}  
+section .su-tabs-pane > ul
+ {
+    padding-left: 90px;
+    font-size: 16px;
+}
+.info {
+    text-align: center;
+}
+ul.ulinline {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+ul.ulinline.dos {
+    margin-top: 5px;
+    margin-left: -11px;
+}
+section .ulinline li{
+    display: inline;
+}
+section .ulinline img{
+        height: 104px;
+    width: inherit;
+}
+section .ulinline.dos img{
+        height: 77px;
+    width: inherit;
+}
+
+
+.bx-wrapper img {
+    max-width: 100%;
+    /*max-width: 1920px;*/
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    /*max-height: 470px;*/
+}
+.bx-wrapper {
+    max-height: 460px;
+}
+.btn-success{
+    font-size: 14px;
+}
+.btn.btn-success:hover{
+        background: #5E5F10!important;
+    color: #FFF;
+}
+
+.top-footer {
+    background: #c8c8c8;
+    padding: 30px 0;
+}
+.top-footer h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    position: relative;
+}
+a.iconRedes i {
+    font-size: 40px;
+    margin-left: 6px;
+}
+
+
+#categoria1{
+    background-color: #E6E6E6;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.39);
+    z-index: 1;
+       padding-top: 50px;
+    margin-bottom: -30px;
+    padding-bottom: 31px;
+}
+
+#categoria2 {
+    background-color: #fff;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.39);
+    z-index: 1;
+    padding-top: 70px;
+    margin-bottom: -30px;
+    padding-bottom: 31px;
+}
+#categoria3 {
+    background-color: #fff;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.39);
+    z-index: 1;
+    padding-top: 170px;
+    padding-bottom: 31px;
+}
+
+
+.grid-post-4{
+
+}
+.grid-post-4  .su-post-title a{
+        color: #4a4a4a;
+        font-size: 16px;
+}
+.grid-post-4 .su-post{
+        width: 23%;
+    float: left;
+    padding: 11px;
+    text-align: center;
+    margin: 0px 6px;
+    border: 1px rgba(204, 204, 204, 0.83) solid;
+}
+.grid-post-4 .su-posts-default-loop .su-post-thumbnail{
+            float: none;
+    display: block;
+    width: 145px;
+    height: 145px;
+    margin-right: 1em;
+    border-radius: 100%;
+    overflow: hidden;
+    background: #ccc;
+    text-align: center;
+    margin: 20px auto;
+}
+.grid-post-4 .su-posts-default-loop .su-post-thumbnail img{
+    max-width: inherit;
+    max-height: inherit;
+        width: 100%;
+    height: 100%;
+
+    }
+.grid-post-4  .su-post-title{
+    text-align: center;
+}
+.grid-post-4 .post-meta{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.grid-post-4 .post-meta .post-meta-key{
+    display: none;
+}
+.grid-post-4 .pie-post {
+        font-weight: bold;
+}
+
+.grid-post-4 .pie-post .fecha li{
+    float: left;
+    background: #5f5f5f;
+    color: #fff;
+    padding: 5px 9px;
+}
+.grid-post-4 .pie-post .read-more{
+    float: right;
+    background: #c0c142;
+    color: #5f5f5f;
+    padding: 5px 9px;
+}
+.grid-post-4 .pie-post .read-more a{
+    
+    color: #2d2d2d;
+}
+.cursosTop #part1 {
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fondo5.png);
+    background-size: cover;
+    
+    margin-top: -20px;
+    position: relative;
+}
+.postcursos #part1{
+            background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fondo5.png);
+    background-size: cover;
+   
+    margin-top: -20px;
+    position: relative;
+}
+.cursosTop #part1 .senor{
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/businessman_PNG6558.png);
+        background-size: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: -60px;
+    right: 18%;
+    width: 609px;
+    height: 490px;
+}
+
+.postcursos #part1 .senor{
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/businessman_PNG6558.png);
+        background-size: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: -60px;
+    right: 18%;
+    width: 609px;
+    height: 490px;
+}
+
+.postcursos #part2{
+       padding-top: 24px;
+           background-color: #fff;
+               margin-bottom: 2px;
+}
+
+.promocionesPost #part1, .promoTop #part1{
+            background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fondo6.png);
+    background-size: cover;
+    margin-top: -20px;
+    position: relative;
+}
+.contactoTop #part1{
+     background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/contact.png);
+    background-size: cover;
+    margin-top: -20px;
+    position: relative;
+         background-position: 50% 30%;
+}
+.iniciativaTop #part1{
+     background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/iniciativa.png);
+    background-size: cover;
+    margin-top: -20px;
+    position: relative;
+        background-position: 50%;
+}
+.promocionesPost #part1 .senor{
+     display: none;
+}
+.postcursos .entry-header{
+    text-align: center;
+}
+.title-verde{
+    background: #c0c142;
+    color: #2d2d2d!important;
+    padding: 5px 9px;
+        display: inline-block;
+            font-weight: bold!important;
+            font-size: 28px;
+}
+.bgtitle{
+    font-size: 26px;
+}
+.title-azul{
+    background: #355C7D;
+    color: #fff!important;
+    padding: 5px 50px;
+        display: inline-block;
+            font-weight: bold!important;
+}
+
+.forcenter {
+    text-align: center;
+}
+.categoria-cursos1{
+        width: 1170px!important;
+    margin: 0 auto;
+}
+.categoria-cursos1 .vc_gitem-animated-block {
+    position: relative;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 58%;
+    text-align: center;
+    margin: auto;
+}
+.categoria-cursos1 .vc_grid-item{
+    text-align: center;
+}
+.categoria-cursos1 .vc_btn3-container {
+   float: right;
+   margin-bottom: 0px;
+}
+.categoria-cursos1 .vc_btn3-container a{
+    background-color: #c0c142!important;
+    color: #2d2d2d!important;
+    padding: 5px 9px;
+    display: inline-block;
+    font-weight: bold!important;
+    border-radius: 0px;
+    font-size: 14px;
+        line-height: inherit;
+}
+.categoria-cursos1 .vc_gitem-post-meta-field-fecha_curso{
+    background-color: #2d2d2d!important;
+    color: #fff!important;
+    padding: 5px 9px;
+    display: inline-block;
+    font-weight: bold!important;
+    border-radius: 0px;
+    font-size: 14px;
+    float: left;
+}
+.categoria-cursos2 {
+    width: 1170px!important;
+    margin: 0 auto;
+}
+.categoria-cursos3{
+    background-color: #fff;
+}
+.categoria-cursos3  > .vc_column-inner{
+    width: 1170px!important;
+    margin: 0 auto;
+}
+.categoria-cursos2 .vc_gitem-post-data-source-post_title, .categoria-cursos2 .vc_btn3-container{
+    display: none;
+}
+
+.cursos1 {
+    padding-top: 40px;
+    background: #fff;
+}
+.cursos2 {
+    padding-top: 40px;
+    background: #fff;
+}
+
+.cursos3 {
+    padding-top: 40px;
+    background: #fff;
+        border-bottom: 9px #333 solid;
+}
+.Promodestacada{
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fon-promo.png);
+    background-size: cover;
+    padding-top: 32px;
+}
+.enfocadas{
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/enfocadas.png);
+        background-size: cover;
+    padding-top: 61px;
+    min-height: 170px;
+    color: #fff;
+}
+.desarrollamos{
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/desarrollamos.png);
+        background-size: cover;
+    padding-top: 61px;
+    min-height: 170px;
+    color: #0F2437;
+}
+.imagdesarrollamos{
+     background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fondesarrollamos.png);
+        background-size: cover;
+    padding-top: 61px;
+    min-height: 170px;
+}
+
+.iniciativaTop #part1 ,.contactoTop #part1{
+    margin-bottom: -38px!important;
+}
+.iconosiniciativa .wpb_text_column {
+    font-size: 20px;
+}
+.imagdesarrollamos .categoria-cursos3 {
+    background:none;
+}
+.objetivos .su-column {
+    background-color: #fff;
+    margin: 0 0 20px 11px!important;
+    padding: 10px;
+    width: 19%;
+    text-align: center;
+}
+.objetivos.de4 {
+  
+}
+
+
+.objetivos .su-column:last-child {
+    float: inherit;
+}
+.objetivos.de4 .su-column:last-child {
+    float: left;
+}
+
+.objetivos.de4 .su-column:first-child{
+    margin-left: 9%!important;
+}
+.objetivos h3 {
+    font-size: 16px;
+    text-align: center;
+}
+.Promodestacada .img-promo{}
+.Promodestacada .text-promo{
+        font-size: 18px;
+        color: #fff;
+}
+.Promodestacada .text-promo h1{
+        font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+.contenidocontacto{
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/paracontacto3.png);
+    background-position: top;
+    background-color: #f7f6f6;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.contenidocontacto .ufbl-form-wrapper{
+    background-color: #fff;
+}
+.direcciones .su-column {
+    background-color: #fff;
+    padding: 18px;
+    padding-top: 0px;
+    border: 1px solid #e2e2e2;
+}
+.mapa{border-top: 5px solid #525252;}
+
+.linklogo{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.su-row.claves {
+        padding: 30px;
+    padding-top: 40px;
+}
+.su-row.claves .su-column{
+    text-align: center;
+}
+.consombra{
+        box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.39);
+    z-index: 1;
+        position: relative;
+}
+
+.titleCarta{
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/08/cartaMelexa.png);
+    width: 700px;
+    height: 113px;
+    padding:10px 10px 10px 0px;
+        margin: auto;
+}
+.titleCarta h3{
+    color: #fff;
+        font-size: 28px;
+}
+
+.titlecuadradoazul{
+    background-color: #355C7D;
+    padding: 10px 30px;
+    text-align: center;
+    color: #fff;
+        font-size: 28px;
+}
+.iconosiniciativa img {
+    width: 60%;
+}
+
+.categoria-cursos1 .vc_grid-item-mini.vc_clearfix {
+    border: 1px solid #d8d6d6;
+    padding: 18px;
+}
+
+.su-carousel-slides {
+    height: inherit!important;
+}
+.su-carousel-slide {
+    height: inherit!important;
+}
+.su-carousel .su-carousel-slide-title {
+    position: relative!important;
+    left: inherit!important;
+    right: inherit!important;
+    bottom: inherit!important;
+    display: block!important;
+    padding: 14px!important;
+    margin: 0px 10px!important;
+    color: #404040!important;
+    line-height: 1.2!important;
+    font-size: 16px!important;
+    background: none!important;
+}
+.su-carousel-slide > a, .su-carousel-slide > img, .su-carousel-slide > a > img {
+    position: relative;
+    display: block;
+    width: 82%!important;
+        margin: auto;
+}
+.page-dos .amazingcarousel-image > div{
+    display: none!important;
+    width: 1px!important;
+    height: 1px!important;
+    overflow: hidden!important;
+    z-index: -1!important;
+    margin: 0px!important;
+    padding: 0px!important;
+}
+#wonderplugincarousel-1 .amazingcarousel-description{
+    font-family: 'Titillium Web', sans-serif!important;
+    font-weight: 300!important;
+}
+
+.acuerdos {}
+
+.acuerdos h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+.acuerdos h4 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.acuerdos ul {
+    width: 40%;
+    margin: auto;
+}
+
+.acuerdos ul li{}
+
+.parablog .vc_grid-item-mini.vc_clearfix {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 19px;
+}
+.parablog .vc_gitem-animated-block {
+    position: relative;
+        width: 40%;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+}
+.parablog .vc_gitem-zone {
+    position: relative;
+    background-clip: border-box;
+    overflow: hidden;
+    background-position: 50% !important;
+    height: 300px;
+}
+.parablog .vc_custom_heading.vc_gitem-post-data.vc_gitem-post-data-source-post_title {
+    width: 31%;
+    position: absolute;
+    z-index: 1;
+    padding: 18px;
+    bottom: 13px;
+    color: #fff;
+    font-size: 20px!important;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.parablog .vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
+    color: #fff;
+    background-color: #c0c142!important;
+}
+.title-blog {
+    position: absolute;
+    bottom: 35px;
+    padding: 20px;
+    width: 100%;
+    padding-left: 10%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.54);
+}
+.title-blog h3 {
+    margin: 0px;
+    font-size: 33px;
+    line-height: 33px;
+}
+
+.top-footer ul.sub-menu {
+    display: none;
+}
+.devoluciones h2 {
+    display: inline;
+    padding: 5px 16px;
+    background: #c0c142;
+}
+.devoluciones .cuadro {
+    display: inline;
+    font-weight: 800;
+    padding: 4px 11px;
+    font-size: 20px;
+    border: 2px solid #c0c142;
+}
+.pad20px{
+   padding-left: 20px;
+       margin-top: 18px;
+           display: inline-block;
+}
+.columna{
+    float: left;
+}
+.columna20{
+    float: left;
+     width: 19%;
+}
+.columna80{
+    float: left;
+    width: 80%;
+    padding-left: 10px;
+}
+.menu-clientes-container{
+
+    background: #eaeaea;
+}
+.menu-clientes-container ul{
+        list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu-clientes-container ul li{
+        padding: 12px 21px;
+}
+.menu-clientes-container ul li:hover{
+        padding: 12px 21px;
+            background: #5e5f10;
+}
+.menu-clientes-container ul li.current_page_item, .menu-clientes-container .current-menu-item{
+    padding: 12px 21px;
+            background: #5e5f10;
+}
+.menu-clientes-container ul li a {
+    color: #607D8B;
+        display: block;
+}
+.menu-clientes-container ul li:hover a, .menu-clientes-container ul li.current_page_item a, .menu-clientes-container .current-menu-item a{
+       color: #fff;
+}
+
+.menMelexa {
+    position: absolute;
+        top: 5px;
+    width: 100%;
+    text-align: center;
+}
+.menMelexa h3 {
+        font-weight: 700!important;
+    font-size: 26px!important;
+    display: inline;
+    color: #000;
+}
+
+.menMelexa span{
+    float: right;
+    padding: 5px 0px;
+    right: 160px;
+    position: relative;
+}
+.top-footer a {
+    color: #5E5F10;
+    text-decoration: none;
+}
+.ulbuscador {
+    position: absolute;
+    right: 206px;
+        top: 105px;
+    background: #fff;
+    padding: 8px;
+}
+#part1 .text-part1.sinback{
+    background:none;
+}
+.sinback{
+    background:none;
+}
+
+.pbx {
+    position: absolute;
+    right: 28px;
+    top: 97px;
+    padding: 8px;
+    color: #fff;
+}
+.pbx .textwidget{
+    float: right;
+}
+.pbx span {
+    display: block;
+}
+.pbx .textwidget a{ color: #fff;}
+.pbx .textwidget a i{ font-size: 24px;}
+
+.bloghome .vc-gitem-zone-height-mode-auto-1-1{
+     height: 204px;
+    background-position: top;
+}
+.newshome{
+
+
+
+}
+
+.carruselmarcas .su-carousel-slide > a > img {
+    height: auto;
+    /* line-height: 140px; */
+    border: none;
+}
+.diagonal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+        left: -235px;
+    z-index: 1;
+    transform: skew(35deg);
+    opacity: 0.9;
+}
+.merdes{
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/enfocadas.png);
+        background-size: cover;
+    min-height: 170px;
+    color: #101010;
+    font-size: 19px;
+}
+.btn.btnasesor {
+    border-radius: 13px;
+    padding-left: 60px;
+        border: none!important;
+        position: relative;
+        z-index: 2;
+}
+
+.btn.btnasesor:hover{
+    background: #5e5f10!important;
+}
+.iconperson2:before {
+    content: '';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    position: absolute;
+    left: 16px;
+    font-size: 41px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconperson:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    position: absolute;
+    left: 16px;
+    font-size: 41px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.iconosmercados{
+
+}
+
+.iconosmercados h5{
+    color: #c0c142;
+        font-size: 23px!important;
+}
+.iconosmercados .wpb_row > .vc_column_container > .vc_column-inner > .wpb_wrapper{
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+    padding: 5px 30px;
+}
+.backcomercio{
+    background-color: #C89639!important;
+    color: #FFF
+}
+.colorcomercio{
+    color: #C89639!important;
+}
+
+.backindustria{
+    background-color: #953D2B;
+    color: #FFF
+}
+.colorindustria{
+    color: #953D2B!important;
+}
+
+.backdatacom{
+    background-color: #5F81BA;
+    color: #FFF
+}
+.colordatacom{
+    color: #5F81BA!important;
+}
+.backconst{
+    background-color: #D4692D;
+    color: #FFF
+}
+.colorconst{
+    color: #D4692D!important;
+}
+
+/* === Woocommerce ==*/
+mark, ins {
+    display: none;
+}
+
+.has-post-thumbnailnth-child(2){
+background: #ccc!important;
+}
+.product-category:last-child{
+    display: none;
+}
+.product.type-product,.woocommerce-result-count,.woocommerce-ordering{
+
+        width: 15.75%!important;
+    float: left!important;
+    margin: 18px!important;
+    clear: none!important;
+    position: relative!important;
+}
+.woocommerce-LoopProduct-imagen {
+    height: 142px;
+    width: 100%;
+    display: inline-block;
+    line-height: 142px;
+}
+.woocommerce-LoopProduct-imagen  h3{
+    display: none;
+}
+.woocommerce ul.products li.product a .woocommerce-LoopProduct-imagen .wp-post-image {
+        display: initial;
+            height: initial;
+}
+
+.col-de40{
+    width: 40%;
+    float: left;
+        display: block;
+    padding-right: 20px;    
+}
+
+.header_categoria {
+    display: inline-block;
+    width: 100%;
+    margin: 6px auto 30px;
+    padding-bottom: 19px;
+    border-bottom: 3px solid #c0c142;
+}
+
+.woocommerce ul.products li.product h3 {
+    text-align: center;
+    border-top: 3px solid #c0c142;
+    border-bottom: 1px solid #EEE;
+    color: #333;
+}
+.procatimg {
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+.woocommerce ul.products li.product a img {
+     margin-bottom: 0; 
+    width: inherit;
+    height: 100%;
+    margin: auto;
+}
+
+.imgcategoriaproducto {
+    height: 200px;
+    padding: 17px;
+    border: 1px solid #efebeb;
+}
+
+.category {
+    width: 30%;
+    position: relative;
+    float: left;
+    margin: 10px 15px;
+        height: 290px;
+}
+.titlecategoria{
+        background: #f7f7f7;
+       height: 83px;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 4px solid #c0c142;
+        display: table;
+        overflow: hidden;
+}
+.titlecategoria h2 {
+        color: #404040;
+    text-align: left;
+    display: table-cell;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    padding-left: 42px;
+        padding-right: 10px;
+    vertical-align: middle;
+}
+
+.woocommerce .category img {
+    height: 100%;
+    width: auto !important;
+}
+.col-4{
+        width: 28%;
+    position: relative;
+    float: left;
+    min-height: 20px;
+    display: block;
+    height: auto;
+    margin: 10px;
+}
+.col-8{
+     width: 68%;
+    position: relative;
+    float: left;
+    display: block;
+    height: auto;
+    margin: 10px;
+}
+.imagencategoriaactual{
+    display: none;
+}
+
+.subcategoriaw .category{
+    width: 100%;
+    position: relative;
+    float: left;
+    margin: 10px 15px;
+        height: auto;
+}
+
+.subcategoriaw #part1 {
+   margin-bottom: 0px!important;
+}
+
+.subcategoriaw .imgcategoriaproducto {
+    width: 40%;
+    height: 200px;
+    padding: 17px;
+    border: 1px solid #efebeb;
+    float: left;
+}
+.subcategoriaw  .titlecategoria {
+    background: #f7f7f7;
+    height: 100%;
+    width: 55%;
+    padding: 20px;
+    border-bottom: 4px solid #c0c142;
+    overflow: hidden;
+    float: left;
+}
+
+.titlecategoria h2 {
+    display: inline-block;
+}
+
+.subcategoriaw .descripcionlistcategorias {
+    color: #404040;
+}
+
+.menudecategorias ul{
+ list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menudecategorias ul li{
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+.menudecategorias ul li a {
+    padding: 10px;
+    display: inline-block;
+    background: #f7f7f7;
+    width: 100%;
+    color: #434343;
+        border-left: 5px solid #ccc;
+    border-bottom: 1px solid #eaeaea;
+}
+.menudecategorias ul li:hover a, .menudecategorias ul li.current-menu-item a, .menudecategorias ul li.current-product_cat-ancestor a {
+   
+        border-left: 5px solid #c0c142;
+        font-weight: 600;
+    }
+.main-navigation ul li.menu-item-265:hover > ul {
+    display: block;
+    width: 607px;
+}
+.main-navigation ul ul li {
+    border-bottom: 1px solid #EEE;
+    padding: 8px 0;
+    width: 280px;
+    margin-left: 10px;
+    float: left;
+}
+a.productosdemo {
+    display: none;
+}
+.woocommerce-page .product_cat-productosdemo{
+    display: none;
+}
+
+.productosW div.product.type-product.status-publish {
+    width: 100%!important;
+    float: left!important;
+    margin: 18px!important;
+    clear: none!important;
+    position: relative!important;
+}
+
+.productosW #part1 {
+        margin-bottom: 0px!important;
+}
+#main-slider .overlay {
+    background: none;
+}
+.destacados{}
+.destacados .destacado {
+    margin: 11px;
+    width: 22%;
+    max-height: 188px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+        padding-top: 24px;
+
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.30);
+
+}
+.wpb_text_column.wpb_content_element{
+    margin: 0px
+}
+.destacados .destacado p{
+    margin: 0px;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+
+.destacados .destacado img {
+    width: 100%;
+}
+.destacados .destacado .cajaimg{
+    float: left;
+     width: 25%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.destacados .destacado .cajatexto {
+    float: left;
+        width: 66%;
+    font-size: 15px;
+    line-height: 20px;
+        margin-left: 12px;
+}
+.destacados .destacado .cajalink {
+    width: 100%;
+    display: inline-block;
+    margin-top: 5px;
+}
+.destacados .destacado .cajalink a.btn{
+font-size: 15px;
+    padding: 5px 7px;
+    float: right;
+}
+.destacados .destacado .cajalink a.btn:hover{
+    background: #646524 !important;
+}
+
+.pbx{
+    display: none!important;
+}
+.ulbuscador{
+    display: none;
+}
+#site-navigation .fa-search{
+font-size: 15px;
+}
+.footer-block .fa-search{
+    display: none;
+}
+.header_categoria{
+    display: none;
+}
+/**
+ * Fluke
+
+ */
+
+ #part1 .text-part1.logfluke-line {
+        background-color: rgb(223, 187, 52);
+    width: 40%;
+}
+#part1 .text-part1.logfluke-line.dos {
+    right: 0px;
+    text-align: left;
+    padding: 0px 80px 0px 23px;
+}
+.logfluke{
+
+}
+.flechas{
+    background-image: url(/wp-content/uploads/2016/09/flechas.png);
+    width: 100%;
+    height: 39px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.header_categoria_fluke{
+    text-align: justify;
+}
+
+.subcategoriaw.flukeCat .categoriasProductos{
+    border: 1px solid #ececec;
+    display: inline-block;
+}
+.subcategoriaw.flukeCat .categoryfluke > a{
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.subcategoriaw.flukeCat .categoryfluke {
+    width: 29%;
+    position: relative;
+    float: left;
+    margin: 10px 15px;
+    height: auto;
+}
+.subcategoriaw.flukeCat .imgcategoriaproducto {
+    width: 100%;
+    height: 200px;
+    padding: 17px;
+    border: 1px solid #efebeb;
+    float: left;
+}
+.subcategoriaw.flukeCat .titlecategoria {
+        background: #f7f7f7;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+        height: 60px;
+    overflow: hidden;
+}
+.subcategoriaw.flukeCat .titlecategoria h2 {
+    color: #404040;
+    text-align: center;
+    display: table-cell;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.subcategoriaw.flukeCat .descripcionlistcategorias {
+    color: #404040;
+    width: 100%;
+    margin-top: 20px;
+    display: table-row;
+    display: none;
+}
+.subcategoriaw.flukeCat .productosfluke{
+    display: inline-block;
+    border: 1px solid #e6e5e5;
+    padding: 10px;
+
+}
+.subcategoriaw.flukeCat .title-fluke{
+   padding: 10px;
+    border: none;
+    display: table;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(223, 187, 52);
+
+}
+.subcategoriaw.flukeCat .title-fluke h3{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    color: #404040!important;
+    
+}
+.subcategoriaw.flukeCat.hijofluke .title-fluke{
+        padding: 10px;
+    border: 1px solid #e6e5e5;
+    display: table;
+    text-align: left;
+    width: 100%;
+    background: none;
+
+}
+.subcategoriaw.flukeCat.hijofluke .title-fluke h3{
+        font-size: 32px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #404040!important;
+    font-weight: 500!important;
+}
+.subcategoriaw.flukeCat .header_categoria_fluke{
+        padding: 10px;
+    border: 1px solid #e6e5e5;
+}
+.subcategoriaw.flukeCat .productosfluke .product.type-product{
+     width: 29%!important;
+    position: relative!important;
+    float: left!important;
+    margin: 10px 15px!important;
+    height: auto!important;
+}
+.subcategoriaw.flukeCat .woocommerce-LoopProduct-imagen h3 {
+    color: #404040!important;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500!important;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.subcategoriaw.flukeCat .title-product {
+    background: #f7f7f7;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+        height: 75px;
+    overflow: hidden;
+}
+.subcategoriaw.flukeCat .imagen-product {
+    width: 100%;
+        height: 218px;
+    padding: 17px;
+    border: 1px solid #efebeb;
+    float: left;
+    overflow: hidden;
+}
+.producto-single{
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+        margin-bottom: 20px;
+}
+/**
+ * Fin-Fluke
+
+ */
+
+ .searchsection article, .searchsection article.product.type-product, .searchsection article.page.type-page{
+        width: 31%!important;
+    margin: 10px!important;
+    float: left;
+    background: #fff;
+    padding: 18px!important;
+        border: 1px solid #e8e8e8;
+}
+.searchsection article .entry-header h1.entry-title, .searchsection article h1{
+    font-weight: 700;
+    margin-left: 0px;
+}
+.searchsection article.category-promociones h1, .searchsection article.category-presenciales h1, .searchsection article.category-virtuales h1{
+    padding-left: 79px;
+}
+
+.primary2{
+    width: 100%!important;
+    margin-top: 80px!important;
+}
+.comments-link{
+    display: none;
+}
+.btn-s{
+    font-size: 16px;
+    padding: 6px 10px;
+}
+.btn-s:hover{
+    color: #c0c142 !important;
+}
+@media screen and (max-width: 1000px){
+    .main-navigation > ul {
+        background: #c0c142;
+    }
+    .categoria-cursos1 {
+        width: 100%! important;
+        margin: 0 auto;
+    }
+    .conmargen {
+        width: 100%! important;
+        margin: 0 auto;
+    }
+    .categoria-cursos2 {
+        width: 100%! important;
+        margin: 0 auto;
+    }
+
+    .categoria-cursos3  > .vc_column-inner{
+         width: 100%! important;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 769px){
+    html {
+    margin-top: 0px !important;
+    }
+    body{
+        border: none;
+    }
+    .menMelexa {
+            position: relative;
+            left: 0px;
+            width: 50%;
+            float: right;
+            font-size: 20px!important;
+            text-align: right;
+            line-height: 15px;
+            display: inline-block;
+            z-index: 20;
+            top: -2px;
+            background: #fff;
+    }
+    .menMelexa h3{
+            
+    font-size: 13px!important;
+    line-height: 12px!important;
+    
+    }
+    body.parallax-on #masthead {
+        background: #fff;
+            padding-top: 0px;
+    }
+    #site-navigation {
+     float: right;
+     width: 100%;
+     border-top: 0px;
+     max-width: 100%;
+     left: 0px;
+     position: absolute;
+     z-index: 9999;
+     padding: 0 20px !important;
+     /* display: inline-block; */
+     /* position: relative; */
+     bottom: 10px;
+    }
+    #sonepar {
+        background-color: #fff;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    z-index: 6;
+    float: right;
+    top: 0px;
+    padding-left: 10px;
+    box-shadow: none;
+    width: 33%;
+    }
+    #site-logo {
+    background-color: #fff;
+    padding: 3px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    float: right;
+    width: 20%;
+    top: 0px;
+    padding-left: 10px;
+    box-shadow: none;
+    height: auto;
+    }
+    .menu-toggle {
+       background-color: #c0c142;
+       box-shadow: 0 0 10px -3px black;
+    }
+    .main-navigation > ul {
+    top: 50px;
+    /* margin-top: 44px; */
+    background: #c0c142;
+}
+.main-navigation ul ul li {
+    border-bottom: 1px solid #EEE;
+    padding: 0px 0;
+    width: 100%;
+    margin-left: -10px;
+    float: left;
+}
+    .main-navigation > ul > li {
+    display: block;
+    border-bottom: 1px solid #fff;
+    }
+    .main-navigation > ul > li a{
+     padding: 5px 0px;
+    }
+    .main-navigation li:hover > a {
+        color: #ffffff;
+        font-weight: 800;
+           
+    }
+    .main-navigation ul li:hover > ul {
+    display: block;
+    position: relative;
+    top: 0px;
+    }
+    .main-navigation ul li.menu-item-265:hover > ul {
+        display: block;
+        width: 100%;
+        top: 0px;
+        position: relative;
+    }
+    .main-navigation ul ul {
+    background: #757525;
+    width: 100%;
+    }
+    #page > #content {
+    position: relative;
+    z-index: 99;
+    padding-top: 116px!important;
+}
+.slider-caption {
+    width: 50%;
+    top: 20px;
+    margin-top: 10px!important;
+}
+.slider-caption .caption-description {
+    text-align: left;
+    line-height: 26px;
+    padding-left: 6px;
+    zoom: 1.3;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+    #sonepar:after, #site-logo:after {
+        display: none;
+    }
+    .destacados .destacado {
+        width: 100%;
+    }
+    .vc_row {
+    margin-left: -15px;
+    width: 100%;
+    margin-right: -15px;
+}
+.category {
+    width: 100%;
+    height: auto;
+}
+    *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+}
+/*CÃƒÆ’Ã‚Â³digo Leo*/
+
+.bigfooter{
+    width:100%;
+    background-color:#d0d0d0;
+}
+.bigfooter .row{
+    max-width:1200px;
+    margin:0 auto;
+}
+.bigfooter p{
+    color:black;
+    font-weight:500;
+    margin:20px 0px;
+
+}
+.cont_bigf{
+    width: 33.33%;
+    float: left;
+    height: 301px;
+    display: block;
+}
+.cont_bigf li{
+    list-style: none;
+    margin-left: -20px;
+}
+.cont_bigf a{
+    color: #5a5a02;
+    font-weight: 500;
+}
+.cont_bigf #boton{
+    color:black;
+    border-radius:6px;
+    background-color:white;
+    padding:2px 5px;
+    font-weight:500;
+    display: block;
+    width: 120px;
+    margin-top: 33px;
+    font-weight: 600;
+    text-align: center;
+}
+.cont_bigf hr{
+    color:white;
+    border:solid 1px;
+}
+.cont_bigf .contenedor{
+    margin: 20px;
+}
+.cont_bigf .redes li{
+    display: inline-block;
+    width: 56px;
+}
+.cont_bigf .redes img{
+    border-radius:3px;
+    background-color:white;
+}
+#menu1 img{
+   max-width: 67px;
+}
+#menu3 img{
+   max-width:150px;
+}
+@media screen and (max-width: 769px){
+    .cont_bigf{
+        width: 100%;
+        float: left;
+        height: 250px;
+        display: block;
+    }
+}

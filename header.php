@@ -36,8 +36,8 @@
 
 <?php wp_head(); ?>
 
-<link rel='stylesheet'  href='/kol3.css?ver=4.5.2' type='text/css' media='all' />
-
+<link rel='stylesheet'  href='<?php echo get_template_directory_uri(); ?>/css/kol3.css?ver=4.5.2' type='text/css' media='all' />
+<!--link rel='stylesheet'  href='/kol3.css?ver=4.5.2' type='text/css' media='all' /-->
 </head>
 
 

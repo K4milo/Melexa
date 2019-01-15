@@ -668,7 +668,7 @@
 
 /*-------AJUSTES CAMILO VELOSA----------*/
 .imgcategoriaproducto img{
-	    margin: 0 auto;
+      margin: 0 auto;
     display: block;
 }
 .woocommerce .category img {
@@ -679,7 +679,7 @@
     width: 100% !important;
 }
 .woocommerce ul.products li.product a h3{
-	display: none;
+  display: none;
 }
 
 #main-slider {
@@ -697,13 +697,13 @@
     box-shadow: none !important;
 }
 #sonepar:after{
-box-shadow: none !important;	
+box-shadow: none !important;  
 }
 #sonepar img {
     width: 158px !important;
 }
 .main-navigation ul{
-	float: left !important;
+  float: left !important;
 }
 .main-navigation {
     padding: 8px 0px 0 105px !important;
@@ -766,7 +766,8 @@ max-height: 250px !important;
 
 }
 .destacados .destacado .cajaimg img{
-	height: 180px;
+  height: 180px;
+  width: auto;
 }
 
 
@@ -791,7 +792,7 @@ max-height: 250px !important;
 
 
 
-	padding-bottom: 8px;
+  padding-bottom: 8px;
 
 
 
@@ -823,7 +824,7 @@ max-height: 250px !important;
 
 
 
-	background: #5f5f5f;
+  background: #5f5f5f;
 
 
 
@@ -895,11 +896,11 @@ max-height: 250px !important;
 
 
 
-	height: 438px;
+  height: 438px;
 
 
 
-	margin-bottom: 30px !important;
+  margin-bottom: 30px !important;
 
 
 
@@ -923,7 +924,7 @@ background:#fff;
 
 
 
-	height: 330px;
+  height: 330px;
 
 
 
@@ -1335,7 +1336,7 @@ font-size: 19px !important;
 
 .product_meta{
 
-	display: none !important;
+  display: none !important;
 
 }
 
@@ -1343,35 +1344,35 @@ font-size: 19px !important;
 
 @media (max-width: 992px){
 
-	#part1 .senor{
+  #part1 .senor{
 
-		display:none !important;
+    display:none !important;
 
-	}
+  }
 
-	#part1.sectionNosotros .text-part1 {
+  #part1.sectionNosotros .text-part1 {
 
-	    width: 70% !important;
+      width: 70% !important;
 
-	    font-size: 18px;
+      font-size: 18px;
 
-	    left: -30px;
+      left: -30px;
 
-	}
+  }
 
-	#part1 > p.descripcion{
+  #part1 > p.descripcion{
 
-		display: none !important;
+    display: none !important;
 
-	}
+  }
 
-	.wpb_wrapper #part1 .text-part1, .page-dos #part1 .text-part1 {
+  .wpb_wrapper #part1 .text-part1, .page-dos #part1 .text-part1 {
 
-	    width: 70% !important;
+      width: 70% !important;
 
-	}
+  }
 
-	#part1 .text-part1 h3 {
+  #part1 .text-part1 h3 {
 
     font-size: 1.3em;
 
@@ -1379,13 +1380,13 @@ font-size: 19px !important;
 
     .wpb_wrapper .vc_custom_1473090055254{
 
-    	padding-left: 10% !important;
+      padding-left: 10% !important;
 
     }
 
     .itemcolum .wpb_text_column{
 
-    	height: inherit !important;
+      height: inherit !important;
 
     }
 
@@ -1393,11 +1394,11 @@ font-size: 19px !important;
 
 @media (max-width: 772px){
 
-	.iconocuadra .vc_column-inner{
+  .iconocuadra .vc_column-inner{
 
-		    height: inherit;
+        height: inherit;
 
-	}
+  }
 
 }
 
@@ -1525,39 +1526,39 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 
 
-	border: 0;
+  border: 0;
 
 
 
-	font-family: inherit;
+  font-family: inherit;
 
 
 
-	font-size: 100%;
+  font-size: 100%;
 
 
 
-	font-style: inherit;
+  font-style: inherit;
 
 
 
-	font-weight: inherit;
+  font-weight: inherit;
 
 
 
-	margin: 0;
+  margin: 0;
 
 
 
-	outline: 0;
+  outline: 0;
 
 
 
-	padding: 0;
+  padding: 0;
 
 
 
-	vertical-align: baseline;
+  vertical-align: baseline;
 
 
 
@@ -1569,19 +1570,19 @@ html {
 
 
 
-	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+  font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 
 
 
-	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+  overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
 
 
 
-	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
 
 
 
-	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+  -ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 
 
 
@@ -1601,15 +1602,15 @@ html {
 
 
 
-	-webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
+  -webkit-box-sizing: border-box; /* Not needed for modern webkit but still used by Blackberry Browser 7.0; see http://caniuse.com/#search=box-sizing */
 
 
 
-	-moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
+  -moz-box-sizing:    border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
 
 
 
-	box-sizing:         border-box;
+  box-sizing:         border-box;
 
 
 
@@ -1621,11 +1622,11 @@ body {
 
 
 
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+  background: #fff; /* Fallback for when there is no custom background color defined. */
 
 
 
-	background: url(images/bg.png);
+  background: url(images/bg.png);
 
 
 
@@ -1673,7 +1674,7 @@ section {
 
 
 
-	display: block;
+  display: block;
 
 
 
@@ -1685,7 +1686,7 @@ ol, ul {
 
 
 
-	list-style: none;
+  list-style: none;
 
 
 
@@ -1697,11 +1698,11 @@ table { /* tables still need 'cellspacing="0"' in the markup */
 
 
 
-	border-collapse: separate;
+  border-collapse: separate;
 
 
 
-	border-spacing: 0;
+  border-spacing: 0;
 
 
 
@@ -1713,11 +1714,11 @@ caption, th, td {
 
 
 
-	font-weight: normal;
+  font-weight: normal;
 
 
 
-	text-align: left;
+  text-align: left;
 
 
 
@@ -1733,7 +1734,7 @@ q:before, q:after {
 
 
 
-	content: "";
+  content: "";
 
 
 
@@ -1745,7 +1746,7 @@ blockquote, q {
 
 
 
-	quotes: "" "";
+  quotes: "" "";
 
 
 
@@ -1761,7 +1762,7 @@ a img {
 
 
 
-	border: 0;
+  border: 0;
 
 
 
@@ -1805,27 +1806,27 @@ textarea {
 
 
 
-	color: #404040;
+  color: #404040;
 
 
 
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 
 
-	font-size: 18px;
+  font-size: 18px;
 
 
 
-	line-height: 1.5;
+  line-height: 1.5;
 
 
 
-	font-weight: 300;
+  font-weight: 300;
 
 
 
-	font-size: 16px;
+  font-size: 16px;
 
 
 
@@ -1837,11 +1838,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-	font-family: 'Oxygen', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 
 
 
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 
 
 
@@ -1853,7 +1854,7 @@ h1{
 
 
 
-	font-size: 26px;
+  font-size: 26px;
 
 
 
@@ -1865,7 +1866,7 @@ h2{
 
 
 
-	font-size: 24px;
+  font-size: 24px;
 
 
 
@@ -1877,7 +1878,7 @@ h3{
 
 
 
-	font-size: 20px;
+  font-size: 20px;
 
 
 
@@ -1889,7 +1890,7 @@ h4{
 
 
 
-	font-size: 18px;
+  font-size: 18px;
 
 
 
@@ -1901,7 +1902,7 @@ h5{
 
 
 
-	font-size: 16px;
+  font-size: 16px;
 
 
 
@@ -1913,7 +1914,7 @@ h6{
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
@@ -1925,7 +1926,7 @@ p {
 
 
 
-	margin-bottom: 8px;
+  margin-bottom: 8px;
 
 
 
@@ -1937,7 +1938,7 @@ b, strong {
 
 
 
-	font-weight: bold;
+  font-weight: bold;
 
 
 
@@ -1949,7 +1950,7 @@ dfn, cite, em, i {
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
@@ -1961,7 +1962,7 @@ blockquote {
 
 
 
-	margin: 0 20px;
+  margin: 0 20px;
 
 
 
@@ -1973,7 +1974,7 @@ address {
 
 
 
-	margin: 0 0 20px;
+  margin: 0 0 20px;
 
 
 
@@ -1985,35 +1986,35 @@ pre {
 
 
 
-	background: #eee;
+  background: #eee;
 
 
 
-	font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: "Courier 10 Pitch", Courier, monospace;
 
 
 
-	font-size: 15px;
+  font-size: 15px;
 
 
 
-	line-height: 1.6;
+  line-height: 1.6;
 
 
 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 
 
 
-	max-width: 100%;
+  max-width: 100%;
 
 
 
-	overflow: auto;
+  overflow: auto;
 
 
 
-	padding: 20px;
+  padding: 20px;
 
 
 
@@ -2025,7 +2026,7 @@ code, kbd, tt, var {
 
 
 
-	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 
 
 
@@ -2037,11 +2038,11 @@ abbr, acronym {
 
 
 
-	border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #666;
 
 
 
-	cursor: help;
+  cursor: help;
 
 
 
@@ -2053,11 +2054,11 @@ mark, ins {
 
 
 
-	background: #fff9c0;
+  background: #fff9c0;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
@@ -2073,23 +2074,23 @@ sub {
 
 
 
-	font-size: 75%;
+  font-size: 75%;
 
 
 
-	height: 0;
+  height: 0;
 
 
 
-	line-height: 0;
+  line-height: 0;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	vertical-align: baseline;
+  vertical-align: baseline;
 
 
 
@@ -2101,7 +2102,7 @@ small {
 
 
 
-	font-size: 75%;
+  font-size: 75%;
 
 
 
@@ -2113,7 +2114,7 @@ big {
 
 
 
-	font-size: 125%;
+  font-size: 125%;
 
 
 
@@ -2141,19 +2142,19 @@ hr {
 
 
 
-	background-color: #ccc;
+  background-color: #ccc;
 
 
 
-	border: 0;
+  border: 0;
 
 
 
-	height: 1px;
+  height: 1px;
 
 
 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 
 
 
@@ -2165,7 +2166,7 @@ ul, ol {
 
 
 
-	margin: 0 0 15px 20px;
+  margin: 0 0 15px 20px;
 
 
 
@@ -2177,7 +2178,7 @@ ul {
 
 
 
-	list-style: square;
+  list-style: square;
 
 
 
@@ -2189,7 +2190,7 @@ ol {
 
 
 
-	list-style: decimal;
+  list-style: decimal;
 
 
 
@@ -2205,11 +2206,11 @@ li > ol {
 
 
 
-	margin-bottom: 0;
+  margin-bottom: 0;
 
 
 
-	margin-left: 20px;
+  margin-left: 20px;
 
 
 
@@ -2221,7 +2222,7 @@ dt {
 
 
 
-	font-weight: bold;
+  font-weight: bold;
 
 
 
@@ -2233,7 +2234,7 @@ dd {
 
 
 
-	margin: 0 20px 20px;
+  margin: 0 20px 20px;
 
 
 
@@ -2245,15 +2246,15 @@ img {
 
 
 
-	height: auto; /* Make sure images are scaled correctly. */
+  height: auto; /* Make sure images are scaled correctly. */
 
 
 
-	max-width: 100%; /* Adhere to container width. */
+  max-width: 100%; /* Adhere to container width. */
 
 
 
-	vertical-align: middle;
+  vertical-align: middle;
 
 
 
@@ -2269,7 +2270,7 @@ figure {
 
 
 
-	margin: 0;
+  margin: 0;
 
 
 
@@ -2281,11 +2282,11 @@ table {
 
 
 
-	margin: 0 0 20px;
+  margin: 0 0 20px;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
@@ -2297,7 +2298,7 @@ th {
 
 
 
-	font-weight: bold;
+  font-weight: bold;
 
 
 
@@ -2341,39 +2342,39 @@ input[type="submit"] {
 
 
 
-	background: #E66432;
+  background: #E66432;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	line-height: 1;
+  line-height: 1;
 
 
 
-	padding: 0 20px;
+  padding: 0 20px;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	color: #ffffff;
+  color: #ffffff;
 
 
 
-	-webkit-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
 
 
 
-	-o-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
 
 
 
-	transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 
 
 
@@ -2509,19 +2510,19 @@ textarea  {
 
 
 
-	color: #333;
+  color: #333;
 
 
 
-	border: 1px solid #DDD;
+  border: 1px solid #DDD;
 
 
 
-	border-radius: 1px;
+  border-radius: 1px;
 
 
 
-	max-width: 100%;
+  max-width: 100%;
 
 
 
@@ -2541,15 +2542,15 @@ select {
 
 
 
-	border: 1px solid #DDD;
+  border: 1px solid #DDD;
 
 
 
-	border-radius: 1px;
+  border-radius: 1px;
 
 
 
-	max-width: 100%;
+  max-width: 100%;
 
 
 
@@ -2633,11 +2634,11 @@ select:focus {
 
 
 
-	color: #111;
+  color: #111;
 
 
 
-	outline: 0;
+  outline: 0;
 
 
 
@@ -2709,11 +2710,11 @@ input[type="color"] {
 
 
 
-	padding: 3px;
+  padding: 3px;
 
 
 
-	height: 36px;
+  height: 36px;
 
 
 
@@ -2729,19 +2730,19 @@ textarea {
 
 
 
-	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+  overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
 
 
 
-	padding: 5px 10px;
+  padding: 5px 10px;
 
 
 
-	vertical-align: top; /* Improves readability and alignment in all browsers */
+  vertical-align: top; /* Improves readability and alignment in all browsers */
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
@@ -2769,11 +2770,11 @@ a {
 
 
 
-	color: #E66432;
+  color: #E66432;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
@@ -2805,23 +2806,23 @@ Accessibility
 
 
 
-	clip: rect(1px, 1px, 1px, 1px);
+  clip: rect(1px, 1px, 1px, 1px);
 
 
 
-	position: absolute !important;
+  position: absolute !important;
 
 
 
-	height: 1px;
+  height: 1px;
 
 
 
-	width: 1px;
+  width: 1px;
 
 
 
-	overflow: hidden;
+  overflow: hidden;
 
 
 
@@ -2845,67 +2846,67 @@ Accessibility
 
 
 
-	background-color: #f1f1f1;
+  background-color: #f1f1f1;
 
 
 
-	border-radius: 3px;
+  border-radius: 3px;
 
 
 
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 
 
 
-	clip: auto !important;
+  clip: auto !important;
 
 
 
-	color: #21759b;
+  color: #21759b;
 
 
 
-	display: block;
+  display: block;
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
-	font-weight: bold;
+  font-weight: bold;
 
 
 
-	height: auto;
+  height: auto;
 
 
 
-	left: 5px;
+  left: 5px;
 
 
 
-	line-height: normal;
+  line-height: normal;
 
 
 
-	padding: 15px 23px 14px;
+  padding: 15px 23px 14px;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	top: 5px;
+  top: 5px;
 
 
 
-	width: auto;
+  width: auto;
 
 
 
-	z-index: 100000; /* Above WP toolbar */
+  z-index: 100000; /* Above WP toolbar */
 
 
 
@@ -2933,15 +2934,15 @@ Alignments
 
 
 
-	display: inline;
+  display: inline;
 
 
 
-	float: left;
+  float: left;
 
 
 
-	margin-right: 20px;
+  margin-right: 20px;
 
 
 
@@ -2953,15 +2954,15 @@ Alignments
 
 
 
-	display: inline;
+  display: inline;
 
 
 
-	float: right;
+  float: right;
 
 
 
-	margin-left: 20px;
+  margin-left: 20px;
 
 
 
@@ -2973,15 +2974,15 @@ Alignments
 
 
 
-	clear: both;
+  clear: both;
 
 
 
-	display: block;
+  display: block;
 
 
 
-	margin: 0 auto;
+  margin: 0 auto;
 
 
 
@@ -3061,11 +3062,11 @@ Clearings
 
 
 
-	content: '';
+  content: '';
 
 
 
-	display: table;
+  display: table;
 
 
 
@@ -3105,7 +3106,7 @@ Clearings
 
 
 
-	clear: both;
+  clear: both;
 
 
 
@@ -3133,7 +3134,7 @@ Widgets
 
 
 
-	margin: 0 0 20px;
+  margin: 0 0 20px;
 
 
 
@@ -3153,7 +3154,7 @@ Widgets
 
 
 
-	max-width: 100%;
+  max-width: 100%;
 
 
 
@@ -3173,7 +3174,7 @@ Widgets
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -3189,11 +3190,11 @@ Widgets
 
 
 
-	background: #FFF;
+  background: #FFF;
 
 
 
-	padding: 15px;
+  padding: 15px;
 
 
 
@@ -3209,7 +3210,7 @@ Widgets
 
 
 
-	margin-bottom: 0;
+  margin-bottom: 0;
 
 
 
@@ -3237,11 +3238,11 @@ Content
 
 
 
-	width: 1170px; 
+  width: 1170px; 
 
 
 
-	margin: 0 auto;
+  margin: 0 auto;
 
 
 
@@ -3253,11 +3254,11 @@ Content
 
 
 
-	padding: 60px 0 80px;
+  padding: 60px 0 80px;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -3273,31 +3274,31 @@ Content
 
 
 
-	font-size: 34px;
+  font-size: 34px;
 
 
 
-	text-transform: uppercase;
+  text-transform: uppercase;
 
 
 
-	line-height: 1.2;
+  line-height: 1.2;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	padding: 0 20px;
+  padding: 0 20px;
 
 
 
-	font-weight: 300;
+  font-weight: 300;
 
 
 
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 
 
 
@@ -3309,11 +3310,11 @@ Content
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
@@ -3325,35 +3326,35 @@ Content
 
 
 
-	content: "";
+  content: "";
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	width: 50%;
+  width: 50%;
 
 
 
-	top:100%;
+  top:100%;
 
 
 
-	left:50%;
+  left:50%;
 
 
 
-	margin-left: -25%;
+  margin-left: -25%;
 
 
 
-	margin-top: 10px;
+  margin-top: 10px;
 
 
 
-	border-bottom: 2px solid;
+  border-bottom: 2px solid;
 
 
 
@@ -3373,27 +3374,27 @@ Content
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left:0;
+  left:0;
 
 
 
-	top: 0;
+  top: 0;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	height: 100%;
+  height: 100%;
 
 
 
-	z-index: 99;
+  z-index: 99;
 
 
 
@@ -3409,11 +3410,11 @@ Content
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	z-index: 999;
+  z-index: 999;
 
 
 
@@ -3429,7 +3430,7 @@ Content
 
 
 
-	margin: 0 0 40px;
+  margin: 0 0 40px;
 
 
 
@@ -3461,7 +3462,7 @@ Content
 
 
 
-	margin-top: 30px;
+  margin-top: 30px;
 
 
 
@@ -3477,11 +3478,11 @@ Content
 
 
 
-	width: 70%;
+  width: 70%;
 
 
 
-	float: left;
+  float: left;
 
 
 
@@ -3493,15 +3494,15 @@ Content
 
 
 
-	width: 28%;
+  width: 28%;
 
 
 
-	float: right;
+  float: right;
 
 
 
-	font-size: 16px;
+  font-size: 16px;
 
 
 
@@ -3513,11 +3514,11 @@ Content
 
 
 
-	list-style: none;
+  list-style: none;
 
 
 
-	margin-left: 0;
+  margin-left: 0;
 
 
 
@@ -3541,11 +3542,11 @@ Content
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	color: #333;
+  color: #333;
 
 
 
@@ -3557,19 +3558,19 @@ Content
 
 
 
-	border-bottom: 1px solid #E66432;
+  border-bottom: 1px solid #E66432;
 
 
 
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 
 
 
-	line-height: 1.2;
+  line-height: 1.2;
 
 
 
-	font-size: 18px;
+  font-size: 18px;
 
 
 
@@ -3581,15 +3582,15 @@ Content
 
 
 
-	color: #333;
+  color: #333;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	padding: 8px 0;
+  padding: 8px 0;
 
 
 
@@ -3601,7 +3602,7 @@ Content
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
@@ -3633,23 +3634,23 @@ Posts and pages
 
 
 
-	font-size: 24px;
+  font-size: 24px;
 
 
 
-	font-weight: bold;
+  font-weight: bold;
 
 
 
-	text-transform: uppercase;
+  text-transform: uppercase;
 
 
 
-	white-space: nowrap;
+  white-space: nowrap;
 
 
 
-	margin-bottom: 0;
+  margin-bottom: 0;
 
 
 
@@ -3661,7 +3662,7 @@ Posts and pages
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
@@ -3673,15 +3674,15 @@ Posts and pages
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
-	margin-bottom: 0;
+  margin-bottom: 0;
 
 
 
@@ -3693,23 +3694,23 @@ Posts and pages
 
 
 
-	margin: 0 0 20px;
+  margin: 0 0 20px;
 
 
 
-	background: #FFF;
+  background: #FFF;
 
 
 
-	padding: 20px;
+  padding: 20px;
 
 
 
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -3721,7 +3722,7 @@ Posts and pages
 
 
 
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 
 
 
@@ -3737,7 +3738,7 @@ Posts and pages
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -3753,15 +3754,15 @@ Posts and pages
 
 
 
-	display: inline;
+  display: inline;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
@@ -3777,11 +3778,11 @@ Posts and pages
 
 
 
-	color: #333;
+  color: #333;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
@@ -3801,7 +3802,7 @@ Posts and pages
 
 
 
-	margin: 20px 0 0;
+  margin: 20px 0 0;
 
 
 
@@ -3813,11 +3814,11 @@ Posts and pages
 
 
 
-	clear: both;
+  clear: both;
 
 
 
-	margin: 0 0 20px;
+  margin: 0 0 20px;
 
 
 
@@ -3829,11 +3830,11 @@ Posts and pages
 
 
 
-	font-weight: 300;
+  font-weight: 300;
 
 
 
-	margin-left: 80px;
+  margin-left: 80px;
 
 
 
@@ -3845,7 +3846,7 @@ Posts and pages
 
 
 
-	margin-left: 0;
+  margin-left: 0;
 
 
 
@@ -3857,7 +3858,7 @@ Posts and pages
 
 
 
-	margin-left: 0;
+  margin-left: 0;
 
 
 
@@ -3869,11 +3870,11 @@ Posts and pages
 
 
 
-	color: #333;
+  color: #333;
 
 
 
-	text-decoration:none;
+  text-decoration:none;
 
 
 
@@ -3885,51 +3886,51 @@ Posts and pages
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left: 20px;
+  left: 20px;
 
 
 
-	top: -14px;
+  top: -14px;
 
 
 
-	background: #E66432;
+  background: #E66432;
 
 
 
-	width: 60px;
+  width: 60px;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
-	font-family: "Oxygen",sans-serif;
+  font-family: "Oxygen",sans-serif;
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
-	padding: 10px;
+  padding: 10px;
 
 
 
-	line-height: 1.2;
+  line-height: 1.2;
 
 
 
-	text-transform: uppercase;
+  text-transform: uppercase;
 
 
 
@@ -3989,7 +3990,7 @@ Posts and pages
 
 
 
-	display: block;
+  display: block;
 
 
 
@@ -4001,15 +4002,15 @@ Posts and pages
 
 
 
-	font-size: 24px;
+  font-size: 24px;
 
 
 
-	font-weight: bold;
+  font-weight: bold;
 
 
 
-	margin-bottom: 3px;
+  margin-bottom: 3px;
 
 
 
@@ -4033,11 +4034,11 @@ Posts and pages
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
-	font-family: "Oxygen",sans-serif;
+  font-family: "Oxygen",sans-serif;
 
 
 
@@ -4049,7 +4050,7 @@ Posts and pages
 
 
 
-	margin-right: 15px;
+  margin-right: 15px;
 
 
 
@@ -4061,11 +4062,11 @@ Posts and pages
 
 
 
-	margin-right: 5px;
+  margin-right: 5px;
 
 
 
-	color: #666;
+  color: #666;
 
 
 
@@ -4077,15 +4078,15 @@ Posts and pages
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
-	color: #333;
+  color: #333;
 
 
 
@@ -4097,31 +4098,31 @@ Posts and pages
 
 
 
-	background: #333;
+  background: #333;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	padding: 5px 10px;
+  padding: 5px 10px;
 
 
 
-	line-height: 1.2;
+  line-height: 1.2;
 
 
 
-	border-radius: 2px;
+  border-radius: 2px;
 
 
 
-	font-size: 13px;
+  font-size: 13px;
 
 
 
-	margin-top: 15px;
+  margin-top: 15px;
 
 
 
@@ -4133,11 +4134,11 @@ Posts and pages
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
@@ -4149,11 +4150,11 @@ Posts and pages
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
-	margin-right: 5px;
+  margin-right: 5px;
 
 
 
@@ -4165,7 +4166,7 @@ Posts and pages
 
 
 
-	float: none;
+  float: none;
 
 
 
@@ -4177,19 +4178,19 @@ Posts and pages
 
 
 
-	background: #FFF;
+  background: #FFF;
 
 
 
-	padding: 10px;
+  padding: 10px;
 
 
 
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 
 
 
-	border-bottom: 3px solid #E66432;
+  border-bottom: 3px solid #E66432;
 
 
 
@@ -4201,11 +4202,11 @@ Posts and pages
 
 
 
-	margin: -20px -20px 15px;
+  margin: -20px -20px 15px;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
@@ -4233,7 +4234,7 @@ Asides
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -4261,19 +4262,19 @@ Comments
 
 
 
-	background: #FFF;
+  background: #FFF;
 
 
 
-	padding: 15px;
+  padding: 15px;
 
 
 
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 
 
 
-	font-size: 16px;
+  font-size: 16px;
 
 
 
@@ -4285,7 +4286,7 @@ Comments
 
 
 
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 
 
 
@@ -4297,7 +4298,7 @@ Comments
 
 
 
-	background: #333;
+  background: #333;
 
 
 
@@ -4333,11 +4334,11 @@ Comments
 
 
 
-	border-top:2px solid #333;
+  border-top:2px solid #333;
 
 
 
-	padding-top: 15px;
+  padding-top: 15px;
 
 
 
@@ -4349,7 +4350,7 @@ Comments
 
 
 
-	word-wrap: break-word;
+  word-wrap: break-word;
 
 
 
@@ -4361,11 +4362,11 @@ Comments
 
 
 
-	background: #333;
+  background: #333;
 
 
 
-	border: none;
+  border: none;
 
 
 
@@ -4377,7 +4378,7 @@ Comments
 
 
 
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 
 
 
@@ -4389,7 +4390,7 @@ Comments
 
 
 
-	display:block;
+  display:block;
 
 
 
@@ -4401,7 +4402,7 @@ textarea#comment{
 
 
 
-	height: 150px;
+  height: 150px;
 
 
 
@@ -4413,7 +4414,7 @@ textarea#comment{
 
 
 
-	width: 100%
+  width: 100%
 
 
 
@@ -4429,15 +4430,15 @@ textarea#comment{
 
 
 
-	margin: 0;
+  margin: 0;
 
 
 
-	padding: 0;
+  padding: 0;
 
 
 
-	list-style: none;
+  list-style: none;
 
 
 
@@ -4449,7 +4450,7 @@ textarea#comment{
 
 
 
-	margin: 0 0 0 15px;
+  margin: 0 0 0 15px;
 
 
 
@@ -4461,19 +4462,19 @@ textarea#comment{
 
 
 
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 
 
 
-	padding: 10px;
+  padding: 10px;
 
 
 
-	background: #FCFCFC;
+  background: #FCFCFC;
 
 
 
-	border-radius: 5px;
+  border-radius: 5px;
 
 
 
@@ -4485,11 +4486,11 @@ textarea#comment{
 
 
 
-	vertical-align: text-top;
+  vertical-align: text-top;
 
 
 
-	margin-right: 10px;
+  margin-right: 10px;
 
 
 
@@ -4501,19 +4502,19 @@ textarea#comment{
 
 
 
-	font-style: normal;
+  font-style: normal;
 
 
 
-	font-size: 15px;
+  font-size: 15px;
 
 
 
-	text-transform: capitalize;
+  text-transform: capitalize;
 
 
 
-	font-weight: normal;
+  font-weight: normal;
 
 
 
@@ -4525,15 +4526,15 @@ textarea#comment{
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	font-size: 13px;
+  font-size: 13px;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
@@ -4545,7 +4546,7 @@ textarea#comment{
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -4557,7 +4558,7 @@ textarea#comment{
 
 
 
-	color: #333;
+  color: #333;
 
 
 
@@ -4569,7 +4570,7 @@ textarea#comment{
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -4581,23 +4582,23 @@ textarea#comment{
 
 
 
-	float: right;
+  float: right;
 
 
 
-	font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 
 
 
-	font-weight: normal;
+  font-weight: normal;
 
 
 
-	font-size: 12px;
+  font-size: 12px;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
@@ -4613,7 +4614,7 @@ textarea#comment{
 
 
 
-	color: #666;
+  color: #666;
 
 
 
@@ -4625,7 +4626,7 @@ textarea#comment{
 
 
 
-	color:#01AEFD;
+  color:#01AEFD;
 
 
 
@@ -4637,7 +4638,7 @@ textarea#comment{
 
 
 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 
 
 
@@ -4649,7 +4650,7 @@ textarea#comment{
 
 
 
-	background: none repeat scroll 0 0 #293037;
+  background: none repeat scroll 0 0 #293037;
 
 
 
@@ -4685,7 +4686,7 @@ textarea#comment{
 
 
 
-	margin-top: 10px;
+  margin-top: 10px;
 
 
 
@@ -4697,7 +4698,7 @@ textarea#comment{
 
 
 
-	margin-bottom: 0;
+  margin-bottom: 0;
 
 
 
@@ -4709,35 +4710,35 @@ textarea#comment{
 
 
 
-	background: #111;
+  background: #111;
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left: 50%;
+  left: 50%;
 
 
 
-	top: -20px;
+  top: -20px;
 
 
 
-	color:#FFF;
+  color:#FFF;
 
 
 
-	font-size: 13px;
+  font-size: 13px;
 
 
 
-	width: :250px;
+  width: :250px;
 
 
 
-	margin-left: -125px;
+  margin-left: -125px;
 
 
 
@@ -4749,7 +4750,7 @@ textarea#comment{
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -4761,11 +4762,11 @@ textarea#comment{
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
-	color: #333;
+  color: #333;
 
 
 
@@ -4777,23 +4778,23 @@ textarea#comment{
 
 
 
-	font-family: FontAwesome;
+  font-family: FontAwesome;
 
 
 
-	content: "\f057";
+  content: "\f057";
 
 
 
-	margin:0 5px 0 20px;
+  margin:0 5px 0 20px;
 
 
 
-	font-style: normal;
+  font-style: normal;
 
 
 
-	color: #333;
+  color: #333;
 
 
 
@@ -4805,7 +4806,7 @@ textarea#comment{
 
 
 
-	color: #333;
+  color: #333;
 
 
 
@@ -4837,7 +4838,7 @@ Infinite scroll
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -4853,7 +4854,7 @@ Infinite scroll
 
 
 
-	display: block;
+  display: block;
 
 
 
@@ -4889,19 +4890,19 @@ Media
 
 
 
-	border: none;
+  border: none;
 
 
 
-	margin-bottom: 0;
+  margin-bottom: 0;
 
 
 
-	margin-top: 0;
+  margin-top: 0;
 
 
 
-	padding: 0;
+  padding: 0;
 
 
 
@@ -4925,7 +4926,7 @@ object {
 
 
 
-	max-width: 100%;
+  max-width: 100%;
 
 
 
@@ -4953,11 +4954,11 @@ Captions
 
 
 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 
 
 
-	max-width: 100%;
+  max-width: 100%;
 
 
 
@@ -4969,11 +4970,11 @@ Captions
 
 
 
-	display: block;
+  display: block;
 
 
 
-	margin: 0 auto;
+  margin: 0 auto;
 
 
 
@@ -4985,7 +4986,7 @@ Captions
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
@@ -4997,7 +4998,7 @@ Captions
 
 
 
-	margin: 0.8075em 0;
+  margin: 0.8075em 0;
 
 
 
@@ -5025,7 +5026,7 @@ Galleries
 
 
 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 
 
 
@@ -5037,23 +5038,23 @@ Galleries
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	vertical-align: top;
+  vertical-align: top;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	padding:0 4px 4px 0;
+  padding:0 4px 4px 0;
 
 
 
@@ -5065,7 +5066,7 @@ Galleries
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -5077,35 +5078,35 @@ Galleries
 
 
 
-	content: "";
+  content: "";
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left: 0;
+  left: 0;
 
 
 
-	top: 0;
+  top: 0;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	height: 100%;
+  height: 100%;
 
 
 
-	background:url(images/zoom.png) no-repeat center rgba(0,0,0,0.3);
+  background:url(images/zoom.png) no-repeat center rgba(0,0,0,0.3);
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -5117,7 +5118,7 @@ Galleries
 
 
 
-	display: block;
+  display: block;
 
 
 
@@ -5129,7 +5130,7 @@ Galleries
 
 
 
-	max-width: 50%;
+  max-width: 50%;
 
 
 
@@ -5141,7 +5142,7 @@ Galleries
 
 
 
-	max-width: 33.33%;
+  max-width: 33.33%;
 
 
 
@@ -5153,7 +5154,7 @@ Galleries
 
 
 
-	max-width: 25%;
+  max-width: 25%;
 
 
 
@@ -5165,7 +5166,7 @@ Galleries
 
 
 
-	max-width: 20%;
+  max-width: 20%;
 
 
 
@@ -5177,7 +5178,7 @@ Galleries
 
 
 
-	max-width: 16.66%;
+  max-width: 16.66%;
 
 
 
@@ -5189,7 +5190,7 @@ Galleries
 
 
 
-	max-width: 14.28%;
+  max-width: 14.28%;
 
 
 
@@ -5201,7 +5202,7 @@ Galleries
 
 
 
-	max-width: 12.5%;
+  max-width: 12.5%;
 
 
 
@@ -5213,7 +5214,7 @@ Galleries
 
 
 
-	max-width: 11.11%;
+  max-width: 11.11%;
 
 
 
@@ -5225,15 +5226,15 @@ Galleries
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
-	line-height: 1.2;
+  line-height: 1.2;
 
 
 
-	margin-top: 5px;
+  margin-top: 5px;
 
 
 
@@ -5261,27 +5262,27 @@ Main Header
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	z-index: 99999;
+  z-index: 99999;
 
 
 
-	background: #FFF;
+  background: #FFF;
 
 
 
-	padding: 10px 0;
+  padding: 10px 0;
 
 
 
-	border-bottom: 3px solid #E66432;
+  border-bottom: 3px solid #E66432;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -5293,7 +5294,7 @@ Main Header
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
@@ -5305,19 +5306,19 @@ body.parallax-on #masthead{
 
 
 
-	position: fixed;
+  position: fixed;
 
 
 
-	left: 0;
+  left: 0;
 
 
 
-	top: 0;
+  top: 0;
 
 
 
-	right: 0;
+  right: 0;
 
 
 
@@ -5329,7 +5330,7 @@ body.logged-in.parallax-on #masthead{
 
 
 
-	top: auto;
+  top: auto;
 
 
 
@@ -5357,11 +5358,11 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	font-size: 13px;
+  font-size: 13px;
 
 
 
@@ -5373,7 +5374,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	float: left;
+  float: left;
 
 
 
@@ -5385,15 +5386,15 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	float: none;
+  float: none;
 
 
 
-	width: auto;
+  width: auto;
 
 
 
-	padding:10px 0; 
+  padding:10px 0; 
 
 
 
@@ -5405,15 +5406,15 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	float: right;
+  float: right;
 
 
 
-	max-width: 80%;
+  max-width: 80%;
 
 
 
-	margin-top: 15px;
+  margin-top: 15px;
 
 
 
@@ -5425,19 +5426,19 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	float: none;
+  float: none;
 
 
 
-	width: auto;
+  width: auto;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	max-width: none;
+  max-width: none;
 
 
 
@@ -5449,19 +5450,19 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	list-style: none;
+  list-style: none;
 
 
 
-	margin: 0;
+  margin: 0;
 
 
 
-	padding-left: 0;
+  padding-left: 0;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
@@ -5473,7 +5474,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -5485,15 +5486,15 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	float: left;
+  float: left;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	font-family: 'Oxygen', sans-serif;	
+  font-family: 'Oxygen', sans-serif;  
 
 
 
@@ -5509,15 +5510,15 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	text-transform: uppercase;
+  text-transform: uppercase;
 
 
 
-	font-size:14px;
+  font-size:14px;
 
 
 
-	padding: 5px 15px;
+  padding: 5px 15px;
 
 
 
@@ -5529,7 +5530,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	color: #E66432;
+  color: #E66432;
 
 
 
@@ -5541,15 +5542,15 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	display: block;
+  display: block;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	color:#333;
+  color:#333;
 
 
 
@@ -5561,39 +5562,39 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	background: #FFF;
+  background: #FFF;
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	top: 100%;
+  top: 100%;
 
 
 
-	left:0;
+  left:0;
 
 
 
-	z-index: 99999;
+  z-index: 99999;
 
 
 
-	padding:0 10px;
+  padding:0 10px;
 
 
 
-	font-size: 15px;
+  font-size: 15px;
 
 
 
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -5605,11 +5606,11 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	left: 100%;
+  left: 100%;
 
 
 
-	top: 0;
+  top: 0;
 
 
 
@@ -5621,7 +5622,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	min-width: 200px;
+  min-width: 200px;
 
 
 
@@ -5633,11 +5634,11 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
 
 
 
-	padding: 8px 0;
+  padding: 8px 0;
 
 
 
@@ -5649,7 +5650,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	text-align: left;
+  text-align: left;
 
 
 
@@ -5661,7 +5662,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	border:none;
+  border:none;
 
 
 
@@ -5673,7 +5674,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	color: #E66432;
+  color: #E66432;
 
 
 
@@ -5685,7 +5686,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	display: block;
+  display: block;
 
 
 
@@ -5701,7 +5702,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	color: #E66432;
+  color: #E66432;
 
 
 
@@ -5717,7 +5718,7 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -5741,11 +5742,11 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	margin: 0 0 20px;
+  margin: 0 0 20px;
 
 
 
-	overflow: hidden;
+  overflow: hidden;
 
 
 
@@ -5765,11 +5766,11 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	float: left;
+  float: left;
 
 
 
-	width: 50%;
+  width: 50%;
 
 
 
@@ -5789,11 +5790,11 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	margin-right: 10px;
+  margin-right: 10px;
 
 
 
-	font-size: 16px;
+  font-size: 16px;
 
 
 
@@ -5813,15 +5814,15 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	float: right;
+  float: right;
 
 
 
-	text-align: right;
+  text-align: right;
 
 
 
-	width: 50%;
+  width: 50%;
 
 
 
@@ -5841,11 +5842,11 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	margin-left: 10px;
+  margin-left: 10px;
 
 
 
-	font-size: 16px;
+  font-size: 16px;
 
 
 
@@ -5865,31 +5866,31 @@ body.parallax-on .wpcf7-not-valid-tip{
 
 
 
-	background: #333;
+  background: #333;
 
 
 
-	padding: 8px 25px;
+  padding: 8px 25px;
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
-	font-family: "Oxygen",sans-serif;
+  font-family: "Oxygen",sans-serif;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
@@ -5917,11 +5918,11 @@ Main SLider
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 
 
 
@@ -5945,7 +5946,7 @@ Main SLider
 
 
 
-	margin-bottom: 0;
+  margin-bottom: 0;
 
 
 
@@ -5961,23 +5962,23 @@ Main SLider
 
 
 
-	background:url(images/overlay4.png) repeat rgba(0,0,0,0.3);
+  background:url(images/overlay4.png) repeat rgba(0,0,0,0.3);
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	height: 100%;
+  height: 100%;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	z-index: 999;
+  z-index: 999;
 
 
 
@@ -5993,15 +5994,15 @@ Main SLider
 
 
 
-	background-size: cover;
+  background-size: cover;
 
 
 
-	background-position: top center;
+  background-position: top center;
 
 
 
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
 
 
@@ -6017,27 +6018,27 @@ Main SLider
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	top:50%;
+  top:50%;
 
 
 
-	left:0;
+  left:0;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	z-index: 99999;
+  z-index: 99999;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
@@ -6053,27 +6054,27 @@ Main SLider
 
 
 
-	font-size: 42px;
+  font-size: 42px;
 
 
 
-	font-weight: bold;
+  font-weight: bold;
 
 
 
-	text-transform: uppercase;
+  text-transform: uppercase;
 
 
 
-	color:#FFF;
+  color:#FFF;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 
 
 
@@ -6089,23 +6090,23 @@ Main SLider
 
 
 
-	font-size: 24px;
+  font-size: 24px;
 
 
 
-	color:#FFF;
+  color:#FFF;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 
 
 
-	font-weight: 300;
+  font-weight: 300;
 
 
 
@@ -6121,7 +6122,7 @@ Main SLider
 
 
 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 
 
 
@@ -6145,47 +6146,47 @@ Main SLider
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	border: 2px solid #ffffff;
+  border: 2px solid #ffffff;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	line-height: 1;
+  line-height: 1;
 
 
 
-	padding: 12px 20px;
+  padding: 12px 20px;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	color: #ffffff;
+  color: #ffffff;
 
 
 
-	-webkit-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
 
 
 
-	-o-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
 
 
 
-	transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 
 
 
-	font-size: 20px;
+  font-size: 20px;
 
 
 
@@ -6201,15 +6202,15 @@ Main SLider
 
 
 
-	background: #E56432 !important;
+  background: #E56432 !important;
 
 
 
-	border: 2px solid #E56432 !important;
+  border: 2px solid #E56432 !important;
 
 
 
-	color:#FFF !important;
+  color:#FFF !important;
 
 
 
@@ -6225,39 +6226,39 @@ Main SLider
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	height: 60px;
+  height: 60px;
 
 
 
-	width: 60px;
+  width: 60px;
 
 
 
-	border: 1px solid #FFF;
+  border: 1px solid #FFF;
 
 
 
-	border-radius: 50%;
+  border-radius: 50%;
 
 
 
-	bottom:15%;
+  bottom:15%;
 
 
 
-	left: 50%;
+  left: 50%;
 
 
 
-	margin-left: -30px;
+  margin-left: -30px;
 
 
 
-	z-index: 999;
+  z-index: 999;
 
 
 
@@ -6273,35 +6274,35 @@ Main SLider
 
 
 
-	display: block;
+  display: block;
 
 
 
-	background: url(images/down-arrow.png) no-repeat center;
+  background: url(images/down-arrow.png) no-repeat center;
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left: 0;
+  left: 0;
 
 
 
-	top:0;
+  top:0;
 
 
 
-	height: 100%;
+  height: 100%;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	-webkit-animation: flow-down 2s linear 3s infinite; /* Chrome, Safari, Opera */
+  -webkit-animation: flow-down 2s linear 3s infinite; /* Chrome, Safari, Opera */
 
 
 
@@ -6409,11 +6410,11 @@ Default Section
 
 
 
-	background:rgba(0, 0, 0, 0.1);
+  background:rgba(0, 0, 0, 0.1);
 
 
 
-	border:1px solid;
+  border:1px solid;
 
 
 
@@ -6421,27 +6422,27 @@ Default Section
 
 
 
-	color:inherit; 
+  color:inherit; 
 
 
 
-	padding: 5px 10px;
+  padding: 5px 10px;
 
 
 
-	line-height: 32px;
+  line-height: 32px;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	margin: 0 auto;
+  margin: 0 auto;
 
 
 
-	display: block;
+  display: block;
 
 
 
@@ -6457,27 +6458,27 @@ Default Section
 
 
 
-	height: 50px;
+  height: 50px;
 
 
 
-	line-height: 1.5;
+  line-height: 1.5;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	margin: 0 auto;
+  margin: 0 auto;
 
 
 
-	display: block;
+  display: block;
 
 
 
-	height: 180px;
+  height: 180px;
 
 
 
@@ -6529,11 +6530,11 @@ Default Section
 
 
 
-	border-color:inherit;
+  border-color:inherit;
 
 
 
-	color:inherit;
+  color:inherit;
 
 
 
@@ -6557,11 +6558,11 @@ Service Section
 
 
 
-	width: 48%;
+  width: 48%;
 
 
 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 
 
 
@@ -6573,11 +6574,11 @@ Service Section
 
 
 
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 
 
 
-	line-height: 1.2;
+  line-height: 1.2;
 
 
 
@@ -6589,27 +6590,27 @@ Service Section
 
 
 
-	height:80px;
+  height:80px;
 
 
 
-	width: 80px;
+  width: 80px;
 
 
 
-	border-radius:50%;
+  border-radius:50%;
 
 
 
-	margin-top: 15px;
+  margin-top: 15px;
 
 
 
-	overflow: hidden;
+  overflow: hidden;
 
 
 
-	border:1px solid;
+  border:1px solid;
 
 
 
@@ -6617,7 +6618,7 @@ Service Section
 
 
 
-	background:rgba(255,255,255,0.1);
+  background:rgba(255,255,255,0.1);
 
 
 
@@ -6629,7 +6630,7 @@ Service Section
 
 
 
-	padding: 15px;
+  padding: 15px;
 
 
 
@@ -6641,7 +6642,7 @@ Service Section
 
 
 
-	width: 460px;
+  width: 460px;
 
 
 
@@ -6653,11 +6654,11 @@ Service Section
 
 
 
-	float: left;
+  float: left;
 
 
 
-	text-align: right;
+  text-align: right;
 
 
 
@@ -6669,7 +6670,7 @@ Service Section
 
 
 
-	float: right;
+  float: right;
 
 
 
@@ -6681,7 +6682,7 @@ Service Section
 
 
 
-	float: left;
+  float: left;
 
 
 
@@ -6693,7 +6694,7 @@ Service Section
 
 
 
-	float: right;
+  float: right;
 
 
 
@@ -6705,7 +6706,7 @@ Service Section
 
 
 
-	float: left;
+  float: left;
 
 
 
@@ -6717,7 +6718,7 @@ Service Section
 
 
 
-	float: right;
+  float: right;
 
 
 
@@ -6741,7 +6742,7 @@ Testimonial Section
 
 
 
-	padding-bottom: 40px;
+  padding-bottom: 40px;
 
 
 
@@ -6753,7 +6754,7 @@ Testimonial Section
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
@@ -6765,27 +6766,27 @@ Testimonial Section
 
 
 
-	font-size: 20px;
+  font-size: 20px;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 
 
 
-	line-height: 1.4;
+  line-height: 1.4;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	padding: 0 50px;
+  padding: 0 50px;
 
 
 
@@ -6797,35 +6798,35 @@ Testimonial Section
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left: 0;
+  left: 0;
 
 
 
-	top:0;
+  top:0;
 
 
 
-	content: '\f10d';
+  content: '\f10d';
 
 
 
-	font-size: 24px;
+  font-size: 24px;
 
 
 
-	line-height: 1;
+  line-height: 1;
 
 
 
-	height: 30px;
+  height: 30px;
 
 
 
-	font-family: "FontAwesome";
+  font-family: "FontAwesome";
 
 
 
@@ -6837,35 +6838,35 @@ Testimonial Section
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	right: 30px;
+  right: 30px;
 
 
 
-	bottom:0;
+  bottom:0;
 
 
 
-	content: "\f10e";
+  content: "\f10e";
 
 
 
-	font-size: 24px;
+  font-size: 24px;
 
 
 
-	line-height: 1;
+  line-height: 1;
 
 
 
-	height: 30px;
+  height: 30px;
 
 
 
-	font-family: "FontAwesome";
+  font-family: "FontAwesome";
 
 
 
@@ -6877,7 +6878,7 @@ Testimonial Section
 
 
 
-	font-size: 24px;
+  font-size: 24px;
 
 
 
@@ -6889,19 +6890,19 @@ Testimonial Section
 
 
 
-	width: 100px;
+  width: 100px;
 
 
 
-	height: 100px;
+  height: 100px;
 
 
 
-	border-radius: 50%;
+  border-radius: 50%;
 
 
 
-	margin: 30px auto 20px;
+  margin: 30px auto 20px;
 
 
 
@@ -6913,7 +6914,7 @@ Testimonial Section
 
 
 
-	border-radius: 50%;
+  border-radius: 50%;
 
 
 
@@ -6925,31 +6926,31 @@ Testimonial Section
 
 
 
-	margin: 0;
+  margin: 0;
 
 
 
-	top: 100%;
+  top: 100%;
 
 
 
-	left: 50%;
+  left: 50%;
 
 
 
-	height: 38px;
+  height: 38px;
 
 
 
-	width: 38px;
+  width: 38px;
 
 
 
-	background: none;
+  background: none;
 
 
 
-	border: 1px solid;
+  border: 1px solid;
 
 
 
@@ -6957,51 +6958,51 @@ Testimonial Section
 
 
 
-	text-indent: 0;
+  text-indent: 0;
 
 
 
-	font-size: 26px;
+  font-size: 26px;
 
 
 
-	color: inherit;
+  color: inherit;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	line-height: 38px;
+  line-height: 38px;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	-webkit-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
 
 
 
-	-moz-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
 
 
 
-	transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 
 
 
-	font-family: Arial;
+  font-family: Arial;
 
 
 
@@ -7033,7 +7034,7 @@ Testimonial Section
 
 
 
-	margin-left:-45px;
+  margin-left:-45px;
 
 
 
@@ -7045,7 +7046,7 @@ Testimonial Section
 
 
 
-	margin-left:5px;
+  margin-left:5px;
 
 
 
@@ -7069,27 +7070,27 @@ Portfolio Section
 
 
 
-	width: 24%;
+  width: 24%;
 
 
 
-	margin-right: 1.3333%;
+  margin-right: 1.3333%;
 
 
 
-	float: left;
+  float: left;
 
 
 
-	margin-bottom: 1.5%;
+  margin-bottom: 1.5%;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
-	overflow: hidden;
+  overflow: hidden;
 
 
 
@@ -7101,7 +7102,7 @@ Portfolio Section
 
 
 
-	margin-right: 0;
+  margin-right: 0;
 
 
 
@@ -7113,27 +7114,27 @@ Portfolio Section
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	height: 100%;
+  height: 100%;
 
 
 
-	background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.3);
 
 
 
-	display: none;
+  display: none;
 
 
 
-	z-index: 9999;
+  z-index: 9999;
 
 
 
@@ -7145,55 +7146,55 @@ Portfolio Section
 
 
 
-	width: 60px;
+  width: 60px;
 
 
 
-	height: 60px;
+  height: 60px;
 
 
 
-	margin-left: -30px;
+  margin-left: -30px;
 
 
 
-	margin-top: -30px;
+  margin-top: -30px;
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	top: 50%;
+  top: 50%;
 
 
 
-	left: 50%;
+  left: 50%;
 
 
 
-	background: #E66432;
+  background: #E66432;
 
 
 
-	border-radius: 50%;
+  border-radius: 50%;
 
 
 
-	font-size: 30px;
+  font-size: 30px;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	line-height: 60px;
+  line-height: 60px;
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
@@ -7205,7 +7206,7 @@ Portfolio Section
 
 
 
-	display: block;
+  display: block;
 
 
 
@@ -7217,35 +7218,35 @@ Portfolio Section
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	padding:15px 10px;
+  padding:15px 10px;
 
 
 
-	bottom: 0;
+  bottom: 0;
 
 
 
-	left: 0;
+  left: 0;
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
-	background: url(images/portfolio-text-bg.png) repeat-x top left;
+  background: url(images/portfolio-text-bg.png) repeat-x top left;
 
 
 
-	font-size: 16px;
+  font-size: 16px;
 
 
 
@@ -7261,7 +7262,7 @@ Portfolio Section
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -7273,15 +7274,15 @@ Portfolio Section
 
 
 
-	transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
 
 
 
-	-moz-transition:all 0.3s ease-in-out;
+  -moz-transition:all 0.3s ease-in-out;
 
 
 
-	-webkit-transition:all 0.3s ease-in-out;
+  -webkit-transition:all 0.3s ease-in-out;
 
 
 
@@ -7293,7 +7294,7 @@ Portfolio Section
 
 
 
-	-ms-transform: scale(1.2); /* IE 9 */
+  -ms-transform: scale(1.2); /* IE 9 */
 
 
 
@@ -7325,7 +7326,7 @@ Call to Action Section
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
@@ -7337,7 +7338,7 @@ Call to Action Section
 
 
 
-	margin: 30px 0 15px; 
+  margin: 30px 0 15px; 
 
 
 
@@ -7349,7 +7350,7 @@ Call to Action Section
 
 
 
-	margin-bottom: 0;
+  margin-bottom: 0;
 
 
 
@@ -7385,11 +7386,11 @@ Team Section
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	padding: 0 50px;
+  padding: 0 50px;
 
 
 
@@ -7401,31 +7402,31 @@ Team Section
 
 
 
-	width: 140px;
+  width: 140px;
 
 
 
-	height: 140px;
+  height: 140px;
 
 
 
-	border-radius: 50%;
+  border-radius: 50%;
 
 
 
-	border:2px solid #FFF;
+  border:2px solid #FFF;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	margin: 0 0 20px;
+  margin: 0 0 20px;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -7437,43 +7438,43 @@ Team Section
 
 
 
-	content: "";
+  content: "";
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	top: 100%;
+  top: 100%;
 
 
 
-	left: 50%;
+  left: 50%;
 
 
 
-	border-width: 15px;
+  border-width: 15px;
 
 
 
-	border-color: #E66432 transparent transparent;
+  border-color: #E66432 transparent transparent;
 
 
 
-	border-style: solid;
+  border-style: solid;
 
 
 
-	margin-left: -17px;
+  margin-left: -17px;
 
 
 
-	margin-top: -1px;
+  margin-top: -1px;
 
 
 
-	z-index: -1;
+  z-index: -1;
 
 
 
@@ -7485,7 +7486,7 @@ Team Section
 
 
 
-	border: 2px solid #E66432;
+  border: 2px solid #E66432;
 
 
 
@@ -7497,7 +7498,7 @@ Team Section
 
 
 
-	border-radius: 50%;
+  border-radius: 50%;
 
 
 
@@ -7509,7 +7510,7 @@ Team Section
 
 
 
-	display: none;
+  display: none;
 
 
 
@@ -7521,7 +7522,7 @@ Team Section
 
 
 
-	margin-top: 60px;
+  margin-top: 60px;
 
 
 
@@ -7533,27 +7534,27 @@ Team Section
 
 
 
-	float: left;
+  float: left;
 
 
 
-	width: 35%;
+  width: 35%;
 
 
 
-	margin-right: 3%;
+  margin-right: 3%;
 
 
 
-	border-radius: 50%;
+  border-radius: 50%;
 
 
 
-	overflow: hidden;
+  overflow: hidden;
 
 
 
-	border:4px solid #FFF;
+  border:4px solid #FFF;
 
 
 
@@ -7565,15 +7566,15 @@ Team Section
 
 
 
-	border-radius: 50%;
+  border-radius: 50%;
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
-	padding: 3px;
+  padding: 3px;
 
 
 
@@ -7585,11 +7586,11 @@ Team Section
 
 
 
-	float: left;
+  float: left;
 
 
 
-	width: 62%;
+  width: 62%;
 
 
 
@@ -7601,15 +7602,15 @@ Team Section
 
 
 
-	font-size: 30px;
+  font-size: 30px;
 
 
 
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 
 
 
-	line-height: 1.2;
+  line-height: 1.2;
 
 
 
@@ -7621,15 +7622,15 @@ Team Section
 
 
 
-	font-size: 20px;
+  font-size: 20px;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 
 
 
@@ -7641,7 +7642,7 @@ Team Section
 
 
 
-	border-radius: 66px;
+  border-radius: 66px;
 
 
 
@@ -7653,35 +7654,35 @@ Team Section
 
 
 
-	text-indent: 0;
+  text-indent: 0;
 
 
 
-	font-size: 46px;
+  font-size: 46px;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	height: 50px;
+  height: 50px;
 
 
 
-	line-height: 50px;
+  line-height: 50px;
 
 
 
-	margin-top: -30px;
+  margin-top: -30px;
 
 
 
-	color: inherit;
+  color: inherit;
 
 
 
-	font-weight: normal;
+  font-weight: normal;
 
 
 
@@ -7693,11 +7694,11 @@ Team Section
 
 
 
-	background: none;
+  background: none;
 
 
 
-	left: -40px;
+  left: -40px;
 
 
 
@@ -7709,11 +7710,11 @@ Team Section
 
 
 
-	background: none;
+  background: none;
 
 
 
-	right: -40px;
+  right: -40px;
 
 
 
@@ -7725,7 +7726,7 @@ Team Section
 
 
 
-	min-height: 300px;
+  min-height: 300px;
 
 
 
@@ -7749,7 +7750,7 @@ Google Map Section
 
 
 
-	padding: 0;
+  padding: 0;
 
 
 
@@ -7761,7 +7762,7 @@ Google Map Section
 
 
 
-	margin: 0
+  margin: 0
 
 
 
@@ -7773,7 +7774,7 @@ Google Map Section
 
 
 
-	max-width: none;
+  max-width: none;
 
 
 
@@ -7785,15 +7786,15 @@ Google Map Section
 
 
 
-	width: 100% !important;
+  width: 100% !important;
 
 
 
-	display: block;
+  display: block;
 
 
 
-	height: 400px !important;
+  height: 400px !important;
 
 
 
@@ -7805,63 +7806,63 @@ Google Map Section
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left: 50%;
+  left: 50%;
 
 
 
-	margin-left: -40px;
+  margin-left: -40px;
 
 
 
-	background: #000000;
+  background: #000000;
 
 
 
-	top: 0;
+  top: 0;
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
-	padding: 0 30px 0 20px;
+  padding: 0 30px 0 20px;
 
 
 
-	line-height: 1;
+  line-height: 1;
 
 
 
-	margin-top: -32px;
+  margin-top: -32px;
 
 
 
-	cursor: pointer;
+  cursor: pointer;
 
 
 
-	border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
 
 
 
-	z-index: 999;
+  z-index: 999;
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
-	line-height: 32px;
+  line-height: 32px;
 
 
 
-	height: 32px;
+  height: 32px;
 
 
 
@@ -7873,31 +7874,31 @@ Google Map Section
 
 
 
-	content:"\f106";
+  content:"\f106";
 
 
 
-	font-size: 20px;
+  font-size: 20px;
 
 
 
-	margin:15px 0 0;
+  margin:15px 0 0;
 
 
 
-	line-height: 0;
+  line-height: 0;
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	right:10px;
+  right:10px;
 
 
 
-	font-family: "FontAwesome";
+  font-family: "FontAwesome";
 
 
 
@@ -7909,7 +7910,7 @@ Google Map Section
 
 
 
-	content:"\f107";
+  content:"\f107";
 
 
 
@@ -7949,27 +7950,27 @@ Blog Section
 
 
 
-	float: left;
+  float: left;
 
 
 
-	width: 32%;
+  width: 32%;
 
 
 
-	margin-right: 2%;
+  margin-right: 2%;
 
 
 
-	background: #FFF;
+  background: #FFF;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	color: #333;
+  color: #333;
 
 
 
@@ -7993,7 +7994,7 @@ Blog Section
 
 
 
-	color: #333;
+  color: #333;
 
 
 
@@ -8005,7 +8006,7 @@ Blog Section
 
 
 
-	margin-right: 0;
+  margin-right: 0;
 
 
 
@@ -8017,11 +8018,11 @@ Blog Section
 
 
 
-	font-size: 24px;
+  font-size: 24px;
 
 
 
-	margin:8px 0 5px;
+  margin:8px 0 5px;
 
 
 
@@ -8033,15 +8034,15 @@ Blog Section
 
 
 
-	padding: 0 15px 50px;
+  padding: 0 15px 50px;
 
 
 
-	border-bottom: 3px solid #E66432;
+  border-bottom: 3px solid #E66432;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -8053,19 +8054,19 @@ Blog Section
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 
 
 
-	color: #E66432;
+  color: #E66432;
 
 
 
@@ -8077,7 +8078,7 @@ Blog Section
 
 
 
-	margin-right: 5px;
+  margin-right: 5px;
 
 
 
@@ -8089,35 +8090,35 @@ Blog Section
 
 
 
-	background: #E66432;
+  background: #E66432;
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	bottom: 0;
+  bottom: 0;
 
 
 
-	right: 10px;
+  right: 10px;
 
 
 
-	padding: 8px 15px;
+  padding: 8px 15px;
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
@@ -8129,11 +8130,11 @@ Blog Section
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	margin-top: 70px;
+  margin-top: 70px;
 
 
 
@@ -8145,7 +8146,7 @@ Blog Section
 
 
 
-	background: #333;
+  background: #333;
 
 
 
@@ -8157,7 +8158,7 @@ Blog Section
 
 
 
-	border-color:#333;
+  border-color:#333;
 
 
 
@@ -8181,15 +8182,15 @@ Footer Section
 
 
 
-	background: #000;
+  background: #000;
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
-	font-size: 15px;
+  font-size: 15px;
 
 
 
@@ -8205,11 +8206,11 @@ Footer Section
 
 
 
-	background: #272727;
+  background: #272727;
 
 
 
-	padding: 30px 0;
+  padding: 30px 0;
 
 
 
@@ -8221,11 +8222,11 @@ Footer Section
 
 
 
-	list-style: none;
+  list-style: none;
 
 
 
-	margin: 0;
+  margin: 0;
 
 
 
@@ -8237,7 +8238,7 @@ Footer Section
 
 
 
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 
 
 
@@ -8249,15 +8250,15 @@ Footer Section
 
 
 
-	font-size: 18px;
+  font-size: 18px;
 
 
 
-	margin-bottom: 25px;
+  margin-bottom: 25px;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -8269,31 +8270,31 @@ Footer Section
 
 
 
-	content: "";
+  content: "";
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	top: 100%;
+  top: 100%;
 
 
 
-	width: 40px;
+  width: 40px;
 
 
 
-	border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
 
 
 
-	left: 0;
+  left: 0;
 
 
 
-	margin-top: 5px;
+  margin-top: 5px;
 
 
 
@@ -8305,11 +8306,11 @@ Footer Section
 
 
 
-	color:#FFF;
+  color:#FFF;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
@@ -8333,7 +8334,7 @@ Footer Section
 
 
 
-	width: 100%;
+  width: 100%;
 
 
 
@@ -8345,11 +8346,11 @@ Footer Section
 
 
 
-	width: 48%;
+  width: 48%;
 
 
 
-	margin-right: 2%
+  margin-right: 2%
 
 
 
@@ -8361,11 +8362,11 @@ Footer Section
 
 
 
-	width: 31.333%;
+  width: 31.333%;
 
 
 
-	margin-right: 2%
+  margin-right: 2%
 
 
 
@@ -8377,11 +8378,11 @@ Footer Section
 
 
 
-	width: 23%;
+  width: 23%;
 
 
 
-	margin-left: 2%
+  margin-left: 2%
 
 
 
@@ -8393,7 +8394,7 @@ Footer Section
 
 
 
-	float: left;
+  float: left;
 
 
 
@@ -8421,15 +8422,15 @@ Footer Section
 
 
 
-	background: #000;
+  background: #000;
 
 
 
-	padding: 15px;
+  padding: 15px;
 
 
 
-	font-size: 14px;
+  font-size: 14px;
 
 
 
@@ -8441,7 +8442,7 @@ Footer Section
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
@@ -8453,7 +8454,7 @@ Footer Section
 
 
 
-	float:left;
+  float:left;
 
 
 
@@ -8465,7 +8466,7 @@ Footer Section
 
 
 
-	float:right;
+  float:right;
 
 
 
@@ -8481,27 +8482,27 @@ Footer Section
 
 
 
-	background: #000;
+  background: #000;
 
 
 
-	padding:10px 15px;
+  padding:10px 15px;
 
 
 
-	font-size: 13px !important;
+  font-size: 13px !important;
 
 
 
-	margin:0 0 5px 0;
+  margin:0 0 5px 0;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	line-height: 1;
+  line-height: 1;
 
 
 
@@ -8513,43 +8514,43 @@ Footer Section
 
 
 
-	position: fixed;
+  position: fixed;
 
 
 
-	right: 30px;
+  right: 30px;
 
 
 
-	bottom: 30px;
+  bottom: 30px;
 
 
 
-	display: none;
+  display: none;
 
 
 
-	height: 50px;
+  height: 50px;
 
 
 
-	width: 50px;
+  width: 50px;
 
 
 
-	background: #E66432;
+  background: #E66432;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	line-height: 50px;
+  line-height: 50px;
 
 
 
-	z-index: 9999;
+  z-index: 9999;
 
 
 
@@ -8561,11 +8562,11 @@ Footer Section
 
 
 
-	display: block;
+  display: block;
 
 
 
-	color: #FFF;
+  color: #FFF;
 
 
 
@@ -8593,23 +8594,23 @@ Social
 
 
 
-	position: fixed;
+  position: fixed;
 
 
 
-	left: 0;
+  left: 0;
 
 
 
-	top:50%;
+  top:50%;
 
 
 
-	width: 30px;
+  width: 30px;
 
 
 
-	z-index: 9;
+  z-index: 9;
 
 
 
@@ -8621,39 +8622,39 @@ Social
 
 
 
-	background:#333;
+  background:#333;
 
 
 
-	height: 30px;
+  height: 30px;
 
 
 
-	width: 30px;
+  width: 30px;
 
 
 
-	margin-bottom: 1px;
+  margin-bottom: 1px;
 
 
 
-	line-height: 30px;
+  line-height: 30px;
 
 
 
-	text-align: center;
+  text-align: center;
 
 
 
-	color:#FFF;
+  color:#FFF;
 
 
 
-	display: inline-block;
+  display: inline-block;
 
 
 
-	position: relative;
+  position: relative;
 
 
 
@@ -8665,7 +8666,7 @@ Social
 
 
 
-	background:#e66432
+  background:#e66432
 
 
 
@@ -8677,75 +8678,75 @@ Social
 
 
 
-	background: #333;
+  background: #333;
 
 
 
-	padding:6px 10px;
+  padding:6px 10px;
 
 
 
-	font-size: 11px;
+  font-size: 11px;
 
 
 
-	font-family: Arial;
+  font-family: Arial;
 
 
 
-	text-decoration: none;
+  text-decoration: none;
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left: 130%;
+  left: 130%;
 
 
 
-	top: 2px;
+  top: 2px;
 
 
 
-	margin-left: 10px;
+  margin-left: 10px;
 
 
 
-	border-radius: 1px;
+  border-radius: 1px;
 
 
 
-	white-space:nowrap;
+  white-space:nowrap;
 
 
 
-	line-height: 1;
+  line-height: 1;
 
 
 
-	font-style: italic;
+  font-style: italic;
 
 
 
-	opacity: 0;
+  opacity: 0;
 
 
 
-	visibility: hidden;
+  visibility: hidden;
 
 
 
-	transition:left 0.3s ease;
+  transition:left 0.3s ease;
 
 
 
-	-moz-transition:left 0.3s ease;
+  -moz-transition:left 0.3s ease;
 
 
 
-	-webkit-transition:left 0.3s ease;
+  -webkit-transition:left 0.3s ease;
 
 
 
@@ -8757,39 +8758,39 @@ Social
 
 
 
-	content: "";
+  content: "";
 
 
 
-	position: absolute;
+  position: absolute;
 
 
 
-	left: 0;
+  left: 0;
 
 
 
-	border-color: transparent #333 transparent transparent;
+  border-color: transparent #333 transparent transparent;
 
 
 
-	border-style: solid;
+  border-style: solid;
 
 
 
-	border-width: 4px;
+  border-width: 4px;
 
 
 
-	margin-left: -8px;
+  margin-left: -8px;
 
 
 
-	top: 50%;
+  top: 50%;
 
 
 
-	margin-top: -4px;
+  margin-top: -4px;
 
 
 
@@ -8801,15 +8802,15 @@ Social
 
 
 
-	opacity: 1;
+  opacity: 1;
 
 
 
-	visibility: visible;
+  visibility: visible;
 
 
 
-	left: 100%;
+  left: 100%;
 
 
 
@@ -9061,7 +9062,7 @@ Responsive grid for pages
 
 
 
-	float: right;
+  float: right;
 
 
 
@@ -9077,7 +9078,7 @@ Responsive grid for pages
 
 
 
-	float: left;
+  float: left;
 
 
 
@@ -9093,7 +9094,7 @@ Responsive grid for pages
 
 
 
-	float: right;
+  float: right;
 
 
 
@@ -9109,11 +9110,11 @@ Responsive grid for pages
 
 
 
-	margin-right: 0;
+  margin-right: 0;
 
 
 
-	margin-left: 5px;
+  margin-left: 5px;
 
 
 
@@ -9241,7 +9242,7 @@ Responsive grid for pages
 
 
 
-	text-indent: 999999999px;
+  text-indent: 999999999px;
 
 
 
@@ -9393,18 +9394,18 @@ body.woocommerce.columns-3 ul.products li.product h2 {
 }
 
 /*
-	Links: for fixes
+  Links: for fixes
 
-	https://melexa.com/categoria-producto/categorias-melexa/tuberia-y-canalizacion/
+  https://melexa.com/categoria-producto/categorias-melexa/tuberia-y-canalizacion/
 
 */
 
 @media(max-width:600px){
 
-	/*Header*/
-	body .main-navigation {
-		padding: 8px 5px !important;
-	}
+  /*Header*/
+  body .main-navigation {
+    padding: 8px 5px !important;
+  }
   
   /*
     Woocomerce Responsive
@@ -9432,138 +9433,138 @@ body.woocommerce.columns-3 ul.products li.product h2 {
     width: 100%; 
   }
 
-	body img {
-		max-width: 100%;
-		height: auto;
-	}
+  body img {
+    max-width: 100%;
+    height: auto;
+  }
 
-	body .vc_column_container img {
-		max-width: 100%;
-		height: auto;
-	}
+  body .vc_column_container img {
+    max-width: 100%;
+    height: auto;
+  }
 
-	/*Grid Fixes*/
+  /*Grid Fixes*/
 
-	body .vc_col-sm-3,
-	body .line-item {
-		text-align:center
-	}
+  body .vc_col-sm-3,
+  body .line-item {
+    text-align:center
+  }
 
-	body .vc_row,
-	body .wpb_row {
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
-	}
+  body .vc_row,
+  body .wpb_row {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
 
-	body .destacados .destacado {
-	    width: auto;
-	    float: none !important;
-	    text-align: left;
-	}
-	
-	body .mid-content.clearfix {
-		padding: inherit;
-	}
+  body .destacados .destacado {
+      width: auto;
+      float: none !important;
+      text-align: left;
+  }
+  
+  body .mid-content.clearfix {
+    padding: inherit;
+  }
 
-	body .vc_grid.vc_row.vc_grid-gutter-30px .vc_pageable-slide-wrapper,
-	body .vc_basic_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item, 
-	body .vc_masonry_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item, 
-	body .vc_masonry_media_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item, 
-	body .vc_media_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item {
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
-		display: block;
-		float: none;
-	}
+  body .vc_grid.vc_row.vc_grid-gutter-30px .vc_pageable-slide-wrapper,
+  body .vc_basic_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item, 
+  body .vc_masonry_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item, 
+  body .vc_masonry_media_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item, 
+  body .vc_media_grid .vc_grid.vc_row .vc_grid-item.vc_visible-item {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: block;
+    float: none;
+  }
 
-	body .vc_column_container {
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
-	}
+  body .vc_column_container {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
 
-	body .vc_column_container > .vc_column-inner {
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
-	}
+  body .vc_column_container > .vc_column-inner {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
 
-	/* Home */
+  /* Home */
 
-	body .destacados .destacado .cajalink {
-		text-align: left;
-	}
+  body .destacados .destacado .cajalink {
+    text-align: left;
+  }
 
-	body .destacados .destacado .cajalink a.btn {
-		float: none;
-	}
+  body .destacados .destacado .cajalink a.btn {
+    float: none;
+  }
 
-	body .destacados .destacado h6 {
-		font-size: 18px;
-		text-align: center;
-		margin: 5px 0 11px;
-	}
+  body .destacados .destacado h6 {
+    font-size: 18px;
+    text-align: center;
+    margin: 5px 0 11px;
+  }
 
-	/*Woocommerce fixes*/
+  /*Woocommerce fixes*/
 
-	body .woocommerce .category {
-		width: 100%;
-		height: auto;
-		float: none;
-		clear: both;
-	}
+  body .woocommerce .category {
+    width: 100%;
+    height: auto;
+    float: none;
+    clear: both;
+  }
 
-	body.woocommerce .category img,
-	body.woocommerce img {
-	    height: auto;
-	    width: 100% !important;
-	}
+  body.woocommerce .category img,
+  body.woocommerce img {
+      height: auto;
+      width: 100% !important;
+  }
 
-	/* http://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial */
+  /* http://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial */
 
-	body .col-4.cav,
-	body .col-8.cav {
-		width: 100%;
-		height: auto;
-		float: none;
-		clear: both;
-		margin: inherit;
-	}
+  body .col-4.cav,
+  body .col-8.cav {
+    width: 100%;
+    height: auto;
+    float: none;
+    clear: both;
+    margin: inherit;
+  }
 
-	/*Thumb list*/
-	body .subcategoriaw .imgcategoriaproducto,
-	body .subcategoriaw .titlecategoria {
-		width: 100%;
-		height: auto;
-		float: none;
-		clear: both;
-	}
+  /*Thumb list*/
+  body .subcategoriaw .imgcategoriaproducto,
+  body .subcategoriaw .titlecategoria {
+    width: 100%;
+    height: auto;
+    float: none;
+    clear: both;
+  }
 
-	/*Category List*/
-	body .category {
-		width: 100%;
-		height: auto;
-		margin: 10px 0;
-	}
-	body .subcategoriaw .category {
-		float: none;
-		clear: both;
-		margin: 10px 0;
-	}
+  /*Category List*/
+  body .category {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  body .subcategoriaw .category {
+    float: none;
+    clear: both;
+    margin: 10px 0;
+  }
 
-	body .wpb_wrapper #part1 .text-part1, .page-dos #part1 .text-part1 {
-		width: 70% !important;
-		left: 0;
-	}
+  body .wpb_wrapper #part1 .text-part1, .page-dos #part1 .text-part1 {
+    width: 70% !important;
+    left: 0;
+  }
 
-	/* https://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial/elementos-de-proteccion-personal/ */
+  /* https://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial/elementos-de-proteccion-personal/ */
 
-	body #part1 .text-part1 h3 {
-		font-size: 17px;
-		line-height: inherit;
-	}
+  body #part1 .text-part1 h3 {
+    font-size: 17px;
+    line-height: inherit;
+  }
 
-	/* Footer */
-	body footer .redes{
-		display: block;
-		margin: 45px 18px 0;
-	}
+  /* Footer */
+  body footer .redes{
+    display: block;
+    margin: 45px 18px 0;
+  }
 }

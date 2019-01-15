@@ -43,6 +43,7 @@ Responsive CSS
 		background: url(../images/menu.png) no-repeat center #E3633B;
 		text-indent: -9999px;
 		cursor: pointer;
+		border-radius: 5px;
 	}
 	.logo-top #site-logo{
 		float: left;
@@ -164,7 +165,7 @@ Responsive CSS
 	.main-navigation ul ul {
 		background: #db5e39;
 		position: static;
-		padding:0 10px;
+		padding: 0 10px;
 		font-size: 15px;
 		display: none;
 	}
@@ -260,7 +261,6 @@ Responsive CSS
 		text-align:left;
 	}
 	.main-navigation > ul{
-		max-height:320px 
 	}
 	.slider-caption{
 		display: none;
