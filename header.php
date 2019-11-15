@@ -20,12 +20,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="profile" href="http://gmpg.org/xfn/11">
-
-<link rel="icon" type="image/png" href="<?php bloginfo('template_url')?>/favicon-melexa.png" />
-
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 <!--[if lt IE 9]>
 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
@@ -36,8 +30,6 @@
 
 <?php wp_head(); ?>
 
-<link rel='stylesheet'  href='<?php echo get_template_directory_uri(); ?>/css/kol3.css?ver=4.5.2' type='text/css' media='all' />
-<!--link rel='stylesheet'  href='/kol3.css?ver=4.5.2' type='text/css' media='all' /-->
 </head>
 
 
@@ -56,7 +48,7 @@
 
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 
-			<img src="<?php header_image(); ?>" alt="<?php bloginfo( 'name' ); ?>">
+			<img src="https://melexa.com/wp-content/uploads/2016/05/logo230-top.png" alt="<?php bloginfo( 'name' ); ?>">
 
 		</a>
 
@@ -166,7 +158,7 @@
 
 		</div>
 
-		<div class="menMelexa"><h3>Especialistas en soluciones eléctricas integrales</h3> </div>
+		<div class="menMelexa"><h3>Especialistas en soluciones eléctricas integrales</h3><p class="header-pbx">PBX: <a href="tel:+5715874400">(57 1) 587 4400</a></p> </div>
 
 		<div class="ulbuscador">
 
@@ -255,7 +247,7 @@
 
 	if(is_home() || is_front_page()) :
 
-		do_action('accesspress_bxslider'); 
+		//do_action('accesspress_bxslider'); 
 
 	endif;
 

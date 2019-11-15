@@ -7,12 +7,12 @@
 
     body {
     color: #404040;
+    border-top: 16px solid #404040;
     background: none;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
-    font-size: 17px;
-    background: #c0c142;
-    }
+        font-size: 17px;
+        background: #c0c142;}
    
 
     header .mid-content {
@@ -40,10 +40,9 @@ a {
     z-index: 1;
     top: 0px;
     left: 0px;
-    height: 85px;
-    width: 80px;
-    padding-left: 10px;
-    box-shadow: 2px 2px 2px rgba(49, 49, 49, 0.48);
+            height: 100px;
+        padding-left: 10px;
+        box-shadow: 2px 2px 2px rgba(49, 49, 49, 0.48);
  }
  #site-logo *, #sonepar *{
     z-index: 1;
@@ -94,7 +93,7 @@ a {
  }
  #sonepar img {
        width: 138px;
-       margin-top: -20px;
+    padding: 6px 0px 3px;
 }
 #sonepar > div{
         padding: 10px;
@@ -122,7 +121,7 @@ a {
     z-index: 0;
  }
 #site-logo img{
-    width: 100%;
+    width: 80px;
 }
 #masthead{
     padding: 0px;
@@ -131,21 +130,19 @@ a {
 }
 .main-navigation {
         float: right;
-        width: 100%;
+    width: 100%;
         border-top: 46px solid #c0c142;
-        max-width: 100%;
-        margin-top: 0px;
-        padding: 8px 0px;
-        padding-right: 151px;
-        padding: 0px !important;
+    max-width: 100%;
+    margin-top: 0px;
+    padding: 8px 0px; 
+    padding-right: 151px;
 }
 .main-navigation ul {
     list-style: none;
-    margin: 0 auto;
+    margin: 0;
     padding-left: 0;
     /* display: inline-block; */
     float: right;
-    padding: 4px 90px;
 }
 
 .main-navigation > ul > li > a {
@@ -175,8 +172,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
         border-bottom: 10px solid #404040;
 }
 body.parallax-on #masthead {
-        border-top: 3px solid #404040;
-        position: relative;
+        border-top: 16px solid #404040;
+            position: absolute;
 }
 .parallax-section.clearfix.default_template{
         background-size: 100%!important;
@@ -190,7 +187,7 @@ body.parallax-on #masthead {
 #page > #content {
     position: relative;
     z-index: 99;
-    padding-top: 0px !important;
+    padding-top: 65px!important;
 }
 .slider-caption{
     width: 50%;
@@ -200,11 +197,6 @@ body.parallax-on #masthead {
     background: #c0c142 !important;
     border: 2px solid #c0c142 !important;
     color: #FFF !important;
-    padding: 5px;
-    font-size: 60%;
-    /* position: absolute; */
-    /* width: auto; */
-    min-width: 70px;
 }
 .slider-caption .caption-description a:hover, .btn:hover {
     background: none !important;
@@ -422,7 +414,7 @@ section.page-dos {
 
 
 #part1{
-     background-image: url(https://melexa.com/wp-content/uploads/2016/05/fondo4.png);
+     background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/fondo4.png);
     background-size: cover;
         min-height: 487px;
     margin-top: -20px;
@@ -431,28 +423,24 @@ section.page-dos {
     margin-bottom: 0px!important;
 }
 #part1 .text-part1 {
-        background: #00000069 !important;
-        width: 65% !important;
-        min-width: 65% !important;
-        position: absolute;
-        padding: 10px;
-        top: 30%;
-        font-size: 2em;
+        background: rgba(180, 193, 52, 0.63);
+    width: 65%;
+    position: absolute;
+    padding: 10px;
+    top: 30%;
+    padding-top: 21px;
+    padding-left: 10%;
+    font-size: 1.5em;
         color: #fff;
-        left: 0px !important;
-        padding-left: 10%;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.72);
-        transform: none !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.72);
 }
 #part1 .text-part1 h3 {
-        font-size: 1.4em;
-        z-index: 2;
-        position: relative;
-        transform: none !important;
-        line-height: 1em;
+        font-size: 1.6em;
+    z-index: 2;
+    position: relative;
 }
 #part1 .senor{
-        background-image: url(https://melexa.com/wp-content/uploads/2016/05/businessman_PNG6582-1.png);
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/businessman_PNG6582-1.png);
     background-size: 100%;
     display: inline-block;
     position: absolute;
@@ -467,14 +455,14 @@ section.page-dos {
     z-index: 30;
     font-size: 17px;
     line-height: 22px;
-    top: 50%;
+    top: 53%;
     width: 70%;
     padding-left: 10%;
     color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.63);
 }
 .page-dos .divicion1{
-        background-image: url(https://melexa.com/wp-content/uploads/2016/05/divicion-1.png);
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/divicion-1.png);
     width: 100%;
     background-size: 100% 100%;
     position: absolute;
@@ -482,7 +470,7 @@ section.page-dos {
     height: 188px;
 }
 .page-dos .divicionb{
-        background-image: url(https://melexa.com/wp-content/uploads/2016/07/divicion-b.png);
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/divicion-b.png);
     width: 100%;
     background-size: 100% 100%;
     position: absolute;
@@ -490,7 +478,7 @@ section.page-dos {
     height: 188px;
 }
 .page-dos .divicion2{
-        background-image: url(https://melexa.com/wp-content/uploads/2016/05/divicion2.png);
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/divicion2.png);
     width: 20%;
     background-size: 100% 100%;
     position: absolute;
@@ -508,7 +496,7 @@ section.page-dos {
 }
 
 #part2 .senor2{
-    background-image: url(https://melexa.com/wp-content/uploads/2016/05/businessman_PNG6565.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/businessman_PNG6565.png);
     background-size: 100%;
     display: inline-block;
     position: absolute;
@@ -536,13 +524,13 @@ section.sintitle {
 }
 section#part3, .part3nosotros{
     background: #B7BC0C;
-    background-image: url(https://melexa.com/wp-content/uploads/2016/05/fondo6-1.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/fondo6-1.png);
     background-size: 100%;
     background-position: center 20%;
         min-height: inherit;
 }
 #part1.sectionNosotros {
-    background-image: url(https://melexa.com/wp-content/uploads/2016/06/fondoNosotros.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/06/fondoNosotros.png);
     margin-bottom: 0px!important; */
 }
 
@@ -728,7 +716,7 @@ section .title.azul:before , section .title.azul:after {
 
 section#part5 {
     background: #B7BC0C;
-    background-image: url(https://melexa.com/wp-content/uploads/2016/05/2-2-1.jpg   );
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/05/2-2-1.jpg   );
     background-size: 100%;
     background-position: center 20%;
         min-height: inherit;
@@ -802,9 +790,11 @@ section .ulinline.dos img{
 
 .bx-wrapper img {
     max-width: 100%;
+    /*max-width: 1920px;*/
     display: block;
     margin: 0 auto;
     width: 100%;
+    /*max-height: 470px;*/
 }
 .bx-wrapper {
     max-height: 460px;
@@ -925,21 +915,21 @@ a.iconRedes i {
     color: #2d2d2d;
 }
 .cursosTop #part1 {
-        background-image: url(https://melexa.com/wp-content/uploads/2016/07/fondo5.png);
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fondo5.png);
     background-size: cover;
     
     margin-top: -20px;
     position: relative;
 }
 .postcursos #part1{
-            background-image: url(https://melexa.com/wp-content/uploads/2016/07/fondo5.png);
+            background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fondo5.png);
     background-size: cover;
    
     margin-top: -20px;
     position: relative;
 }
 .cursosTop #part1 .senor{
-        background-image: url(https://melexa.com/wp-content/uploads/2016/07/businessman_PNG6558.png);
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/businessman_PNG6558.png);
         background-size: 100%;
     display: inline-block;
     position: absolute;
@@ -950,7 +940,7 @@ a.iconRedes i {
 }
 
 .postcursos #part1 .senor{
-        background-image: url(https://melexa.com/wp-content/uploads/2016/07/businessman_PNG6558.png);
+        background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/businessman_PNG6558.png);
         background-size: 100%;
     display: inline-block;
     position: absolute;
@@ -967,20 +957,20 @@ a.iconRedes i {
 }
 
 .promocionesPost #part1, .promoTop #part1{
-            background-image: url(https://melexa.com/wp-content/uploads/2016/07/fondo6.png);
+            background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fondo6.png);
     background-size: cover;
     margin-top: -20px;
     position: relative;
 }
 .contactoTop #part1{
-     background-image: url(https://melexa.com/wp-content/uploads/2016/07/contact.png);
+     background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/contact.png);
     background-size: cover;
     margin-top: -20px;
     position: relative;
          background-position: 50% 30%;
 }
 .iniciativaTop #part1{
-     background-image: url(https://melexa.com/wp-content/uploads/2016/07/iniciativa.png);
+     background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/iniciativa.png);
     background-size: cover;
     margin-top: -20px;
     position: relative;
@@ -1083,26 +1073,26 @@ a.iconRedes i {
         border-bottom: 9px #333 solid;
 }
 .Promodestacada{
-    background-image: url(https://melexa.com/wp-content/uploads/2016/07/fon-promo.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fon-promo.png);
     background-size: cover;
     padding-top: 32px;
 }
 .enfocadas{
-    background-image: url(https://melexa.com/wp-content/uploads/2016/07/enfocadas.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/enfocadas.png);
         background-size: cover;
     padding-top: 61px;
     min-height: 170px;
     color: #fff;
 }
 .desarrollamos{
-    background-image: url(https://melexa.com/wp-content/uploads/2016/07/desarrollamos.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/desarrollamos.png);
         background-size: cover;
     padding-top: 61px;
     min-height: 170px;
     color: #0F2437;
 }
 .imagdesarrollamos{
-     background-image: url(https://melexa.com/wp-content/uploads/2016/07/fondesarrollamos.png);
+     background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/fondesarrollamos.png);
         background-size: cover;
     padding-top: 61px;
     min-height: 170px;
@@ -1154,7 +1144,7 @@ a.iconRedes i {
     color: #fff;
 }
 .contenidocontacto{
-    background-image: url(https://melexa.com/wp-content/uploads/2016/07/paracontacto3.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/paracontacto3.png);
     background-position: top;
     background-color: #f7f6f6;
     background-repeat: no-repeat;
@@ -1167,10 +1157,7 @@ a.iconRedes i {
     background-color: #fff;
     padding: 18px;
     padding-top: 0px;
-    border: none;
-    width: 50%;
-    float: left;
-    height: 190px;
+    border: 1px solid #e2e2e2;
 }
 .mapa{border-top: 5px solid #525252;}
 
@@ -1193,7 +1180,7 @@ a.iconRedes i {
 }
 
 .titleCarta{
-    background-image: url(https://melexa.com/wp-content/uploads/2016/08/cartaMelexa.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/08/cartaMelexa.png);
     width: 700px;
     height: 113px;
     padding:10px 10px 10px 0px;
@@ -1310,7 +1297,6 @@ a.iconRedes i {
 .parablog .vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
     color: #fff;
     background-color: #c0c142!important;
-    padding: 3px 5px;
 }
 .title-blog {
     position: absolute;
@@ -1377,40 +1363,27 @@ a.iconRedes i {
 }
 .menu-clientes-container ul li.current_page_item, .menu-clientes-container .current-menu-item{
     padding: 12px 21px;
-    background: #5e5f10;
+            background: #5e5f10;
 }
 .menu-clientes-container ul li a {
     color: #607D8B;
-    display: block;
+        display: block;
 }
 .menu-clientes-container ul li:hover a, .menu-clientes-container ul li.current_page_item a, .menu-clientes-container .current-menu-item a{
-    color: #fff;
+       color: #fff;
 }
 
 .menMelexa {
     position: absolute;
-    top: 5px;
+        top: 5px;
     width: 100%;
     text-align: center;
 }
 .menMelexa h3 {
-    font-weight: 700;
-    font-size: 17px;
+        font-weight: 700!important;
+    font-size: 26px!important;
     display: inline;
     color: #000;
-}
-.header-pbx{
-    color: black;
-    margin-top: -6px;
-    position: absolute;
-    right: 12px;
-    top: 23px;
-    z-index: 122;
-    font-size: 15px;
-}
-.header-pbx a{
-    color: #c0c142;
-    font-weight: 600;
 }
 
 .menMelexa span{
@@ -1479,7 +1452,7 @@ a.iconRedes i {
     opacity: 0.9;
 }
 .merdes{
-    background-image: url(https://melexa.com/wp-content/uploads/2016/07/enfocadas.png);
+    background-image: url(http://melexa.kol3.com/wp-content/uploads/2016/07/enfocadas.png);
         background-size: cover;
     min-height: 170px;
     color: #101010;
@@ -1796,41 +1769,41 @@ a.productosdemo {
 
 }
 .wpb_text_column.wpb_content_element{
-    margin: 0px;
+    margin: 0px
 }
 .destacados .destacado p{
     margin: 0px;
     float: left;
     display: inline-block;
     position: relative;
-    font-size: 1.2em;
 }
 
 .destacados .destacado img {
+    width: 100%;
 }
 .destacados .destacado .cajaimg{
     float: left;
-    width: 41% !important;
+     width: 25%;
     font-size: 15px;
     line-height: 20px;
-    height: 110px;
-    max-height: 200px;
 }
 .destacados .destacado .cajatexto {
     float: left;
-    width: 66%;
+        width: 66%;
     font-size: 15px;
     line-height: 20px;
-    min-height: 120px;
-    max-height: 120px;
-    overflow: hidden;
+        margin-left: 12px;
 }
 .destacados .destacado .cajalink {
     width: 100%;
     display: inline-block;
     margin-top: 5px;
 }
-.destacados .destacado .cajalink a.btn{font-size: 15px;padding: 5px 17px;position: absolute;border-radius: 10px;box-shadow: 0 0 6px -3px black;border: none !important;text-align: center;}
+.destacados .destacado .cajalink a.btn{
+font-size: 15px;
+    padding: 5px 7px;
+    float: right;
+}
 .destacados .destacado .cajalink a.btn:hover{
     background: #646524 !important;
 }
@@ -2050,8 +2023,6 @@ font-size: 15px;
 @media screen and (max-width: 1000px){
     .main-navigation > ul {
         background: #c0c142;
-        width: 70%;
-        margin-left: 96px;
     }
     .categoria-cursos1 {
         width: 100%! important;
@@ -2093,34 +2064,26 @@ font-size: 15px;
     background: #fff;
     }
     .menMelexa h3{
-            font-size: 13px!important;
-            line-height: 12px!important;
-            position: absolute;
-            top: -30px;
-            text-align: right;
-            right: 20%;
-            width: 200px;
-    }
-    #site-logo img{
-        width: 50px;
+            
+    font-size: 13px!important;
+    line-height: 12px!important;
+    
     }
     body.parallax-on #masthead {
         background: #fff;
-        padding-top: 0px;
-        border-top: none;
+            padding-top: 0px;
     }
     #site-navigation {
      float: right;
-     width: 100%;
-     border-top: 0px;
-     max-width: 100%;
-     margin-top: 0px;
-     left: 0px;
-     padding: 8px 0px;
-     padding-left: 8px;
-     position: absolute;
-     z-index: 9999;
-     top: 50px;
+    width: 100%;
+    border-top: 0px;
+    max-width: 100%;
+    margin-top: 0px;
+    left: 0px;
+    padding: 8px 0px;
+    padding-left: 8px;
+    position: absolute;
+    z-index: 9999;
     }
     #sonepar {
         background-color: #fff;
@@ -2147,42 +2110,28 @@ font-size: 15px;
     box-shadow: none;
     height: auto;
     }
-    .menu-toggle{
-        display: block;
-        height: 40px;
-        width: 40px;
+    .menu-toggle {
+       
         background-color: #757525;
-        text-indent: -9999px;
-        cursor: pointer;
-        border-radius: 5px;
-        left: 10px;
-        position: absolute;
-        top: -39px;
     }
     .main-navigation > ul {
     /* top: 20px; */
-    /* margin-top: 32px; */
+    margin-top: 44px;
     background: #c0c142;
-    }
-    .main-navigation ul ul li {
-        border-bottom: 1px solid #EEE;
-        padding: 8px 0;
-        width: 100%;
-        margin-left: 0px;
-        float: left;
-    }
-    .main-navigation > ul {
-        background: #c0c142;
-        width: 100%;
-        margin-left: 0px;
-    }
+}
+.main-navigation ul ul li {
+    border-bottom: 1px solid #EEE;
+    padding: 8px 0;
+    width: 100%;
+    margin-left: 10px;
+    float: left;
+}
     .main-navigation > ul > li {
     display: block;
     border-bottom: 1px solid #fff;
-    height: auto;
     }
     .main-navigation > ul > li a{
-     padding: 8px 0px;
+     padding: 15px 0px;
     }
     .main-navigation li:hover > a {
         color: #ffffff;
@@ -2192,13 +2141,13 @@ font-size: 15px;
     .main-navigation ul li:hover > ul {
     display: block;
     position: relative;
-    height: auto;
+    top: -10px;
     }
     .main-navigation ul li.menu-item-265:hover > ul {
         display: block;
         width: 100%;
+        top: -10px;
         position: relative;
-        height: auto;
     }
     .main-navigation ul ul {
     background: #757525;
@@ -2207,7 +2156,7 @@ font-size: 15px;
     #page > #content {
     position: relative;
     z-index: 99;
-    padding-top: 0px!important;
+    padding-top: 116px!important;
 }
 .slider-caption {
     width: 50%;
@@ -2245,7 +2194,7 @@ font-size: 15px;
     }
 
 }
-/*CÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³digo Leo*/
+/*CÃƒÂ³digo Leo*/
 
 .bigfooter{
     width:100%;
@@ -2312,88 +2261,7 @@ font-size: 15px;
     .cont_bigf{
         width: 100%;
         float: left;
-        height: auto;
+        height: 250px;
         display: block;
     }
-}
-
-.bx-next, .bx-prev{
-    filter: drop-shadow(2px 4px 6px black);
-}
-.boton_cat{
-    height: 130px;
-    display: block;
-    background-size: cover;
-    color: #ffffff;
-    text-shadow: 0px 0px 2px black;
-    text-align: center;
-    border-radius: 7px;
-    box-shadow: 0 0 10px -3px black;
-    overflow: hidden;
-}
-.boton_cat .texto{
-    background: #c0c142;
-    color: white;
-    box-shadow: 0 0 10px -3px black;
-    min-height: 51px;
-    vertical-align: super;
-    padding-top: 5px;
-    line-height: 20px;
-}
-
-.bx-viewport{
-    height: auto;
-}
-
-
-/* Home Posts */
-
-.home-posts {
-    padding: 0 16px 40px;
-}
-.home-posts header {
-    text-align: center;
-    padding: 32px 0 12px; 
-}
-
-.home-posts header h2 {
-    font-size: 40px;
-    color: #fff;
-}
-
-.home-posts .home-posts__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.home-posts__item {
-    width: 30%;
-    border-radius: 20px;
-    overflow: hidden;
-    margin: 16px 0;
-    background-color: #fff;
-}
-
-.home-posts__item figure {
-    display: block;
-    height: 250px;
-    overflow: hidden;
-}
-
-.home-posts__item figure img {
-    width: 100%; 
-}
-
-.home-posts__item .description {
-    padding: 16px;
-}
-
-@media screen and (max-width: 769px){
-    .home-posts {
-        display: block;
-    }
-    .home-posts__item {
-        width: 100%;
-    } 
 }

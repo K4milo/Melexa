@@ -168,7 +168,7 @@ function accesspress_parallax_scripts() {
 	if(of_get_option('enable_responsive') == 1) :
 		wp_enqueue_style( 'accesspress-parallax-responsive', get_template_directory_uri() . '/css/responsive.css' );
 	endif;
-	//wp_enqueue_style('accesspress-parallax-kol3', get_option( 'siteurl' ).'/kol3.css');
+	wp_enqueue_style( 'accesspress-parallax-css', get_template_directory_uri() . '/css/kol3.css' );
 	if (of_get_option('enable_animation') == '1' && is_front_page()) :
         wp_enqueue_script('accesspress-parallax-wow', get_template_directory_uri() . '/js/wow.js', array('jquery'), '1.0', true);
     endif;

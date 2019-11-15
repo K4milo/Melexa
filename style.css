@@ -684,7 +684,6 @@
      display: none;
 }
  #part1 .text-part1{
-     transform: skew(35deg);
      left: -58px;
      width: 49% !important;
 }
@@ -696,7 +695,7 @@
      box-shadow: none !important;
 }
  #sonepar img {
-     width: 158px !important;
+     width: 138px !important;
 }
  .main-navigation ul{
      float: left !important;
@@ -712,12 +711,10 @@
      width: 88%;
 }
  #part1.sectionNosotros .text-part1{
-     transform: skew(35deg);
      left: -58px;
      width: 53% !important;
 }
  #part1.sectionNosotros .text-part1 p{
-     transform: skew(-35deg);
      margin-left: -25px;
 }
  .destacados .destacado{
@@ -729,7 +726,7 @@
      width: 45% !important;
 }
  .destacados .destacado .cajaimg img{
-     height: 180px;
+     /* height: 180px; */
      width: auto;
 }
  .destacados .destacado .cajatexto{
@@ -891,7 +888,10 @@
          left: -30px;
     }
      #part1 > p.descripcion{
-         display: none !important;
+         /* display: none !important; */
+         margin-top: 30px;
+         padding: 10px;
+         background: rgba(73, 79, 19, 0.63) !important;
     }
      .wpb_wrapper #part1 .text-part1, .page-dos #part1 .text-part1 {
          width: 70% !important;
@@ -1207,6 +1207,9 @@
 /*-------------------------------------------------------------- Widgets --------------------------------------------------------------*/
  .widget {
      margin: 0 0 20px;
+}
+.shailan_CountdownWidget{
+    font-size:34px;
 }
 /* Make sure select elements fit in widgets */
  .widget select {
@@ -2804,8 +2807,8 @@ body .destacados .destacado .cajalink {
     }
     /* https://melexa.com/categoria-producto/categorias-melexa/seguridad-industrial/elementos-de-proteccion-personal/ */
      body #part1 .text-part1 h3 {
-         font-size: 17px;
-         line-height: inherit;
+         font-size: 1em;
+         line-height: 1em;
     }
     /* Footer */
      body footer .redes{

@@ -1,6 +1,20 @@
 /*
 Responsive CSS
 */
+header.countdown-title {
+	padding: 20px;
+	text-align: center;
+}
+
+header.countdown-title h3 {	
+	font-weight: bold;
+	font-size: 30px;	
+	text-transform: uppercase;
+}
+
+.shailan_CountdownWidget {
+	/*display: none;*/
+}
 .vc_col-sm-3 {
 	float: left;
 }
@@ -55,6 +69,10 @@ Responsive CSS
 }
 
 @media screen and (max-width: 1000px){
+	
+	.menMelexa h3 {
+    	font-size: 17px !important;
+ }
 	.main-navigation > ul{
 		display: none;
 	}
@@ -66,6 +84,10 @@ Responsive CSS
 		text-indent: -9999px;
 		cursor: pointer;
 		border-radius: 5px;
+		left: 123px;
+		position: absolute;
+		top: 3px;
+		z-index: 2000;
 	}
 	.logo-top #site-logo{
 		float: left;
@@ -190,7 +212,7 @@ Responsive CSS
 	.main-navigation ul ul {
 		background: #db5e39;
 		position: static;
-		padding: 0 10px;
+		padding: 0 0px;
 		font-size: 15px;
 		display: none;
 	}
@@ -222,6 +244,9 @@ Responsive CSS
     	display: block;
     	margin: 10px auto;
     }
+    .header-pbx {
+	display: none;
+	}
 }
 @media screen and (max-width: 480px){
 	.parallax-section h1{

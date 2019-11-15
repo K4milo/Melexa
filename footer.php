@@ -48,6 +48,7 @@
 				<div id="menu1" class="cont_bigf">
 					<div class="contenedor">
 						<a href="http://melexa.com/"><img src="http://melexa.com/wp-content/uploads/2016/05/logo230.png"></a>
+						<p>PBX: <a href="tel:+5715874400">(57 1) 587 4400</a></p>
 						<p>Mejora la productividad de los clientes suministrando un completo portafolio de productos eléctricos acompañado de un servicio excepcional e innovador.</p>
 						<?php
 						wp_nav_menu( array( 
@@ -77,18 +78,28 @@
 					<div class="contenedor">
 						<ul class="redes">
 							<li>
-								<a href="https://www.facebook.com/melexasas/">
+								<a href="https://www.facebook.com/melexasas/" target="_blank">
 									<img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="Facebook">
 								</a>
 							</li>
 							<li>
-								<a href="https://www.linkedin.com/company/801181?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_801181%2Cidx%3A0">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png" alt="Linkedin">
+								<a href="https://www.linkedin.com/company/801181?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_801181%2Cidx%3A0"  target="_blank"  target="_blank">
+									<img style="background: transparent" src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png" alt="Linkedin">
 								</a>
 							</li>
 							<li>
-								<a href="https://twitter.com/MelexaSAS">
+								<a href="https://twitter.com/MelexaSAS" target="_blank">
 									<img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="Twitter">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/channel/UCOtSbTMAr0nDnAOA6rMsMWg" target="_blank">
+									<img style="background: transparent" src="<?php echo get_template_directory_uri(); ?>/images/youtube.png" alt="Youtube">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/melexasas/">
+									<img style="background: transparent" src="<?php echo get_template_directory_uri(); ?>/images/instagram.png" alt="Instagram">
 								</a>
 							</li>
 						</ul>
@@ -101,7 +112,7 @@
 		<div class="bottom-footer">
 			<div class="mid-content clearfix">
 				<div  class="copy-right">
-					<span> &copy; <?php echo date('Y')."  </span>"; bloginfo('name'); ?>  <span>/ Diseño </span>COCTELBRAND
+					<span> &copy; <?php echo date('Y')."  </span>"; bloginfo('name'); ?>  <span></span>
 				</div><!-- .copy-right -->
 				<div class="site-info">
 					
